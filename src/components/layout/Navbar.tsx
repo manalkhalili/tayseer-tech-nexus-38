@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8 bg-orange-600 rounded-sm mx-[19px] px-[29px]">
-          {navItems.map(item => <Link key={item.name} to={item.path} className={`font-medium hover:text-tayseer-orange transition-colors ${isScrolled ? 'text-tayseer-black dark:text-white' : 'text-white'}`}>
+          {navItems.map(item => <Link key={item.name} to={item.path} className="">
               {item.name}
             </Link>)}
           <Link to="/contact" className="btn-primary">
