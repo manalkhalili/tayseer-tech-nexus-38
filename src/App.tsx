@@ -12,6 +12,13 @@ import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 
+// Admin pages
+import Admin from "./pages/Admin";
+import AdminLogin from "./pages/AdminLogin";
+import AdminDashboard from "./pages/AdminDashboard";
+import AdminProjects from "./pages/AdminProjects";
+import AdminProjectForm from "./pages/AdminProjectForm";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -21,12 +28,24 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
+          {/* Public Routes */}
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          
+          {/* Admin Routes */}
+          <Route path="/admin/login" element={<AdminLogin />} />
+          <Route path="/admin" element={<Admin />}>
+            <Route path="dashboard" element={<AdminDashboard />} />
+            <Route path="projects" element={<AdminProjects />} />
+            <Route path="projects/new" element={<AdminProjectForm />} />
+            <Route path="projects/:id/edit" element={<AdminProjectForm />} />
+            {/* Additional admin routes will go here */}
+          </Route>
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
