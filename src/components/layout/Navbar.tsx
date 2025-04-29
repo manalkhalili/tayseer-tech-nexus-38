@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 const Navbar: React.FC = () => {
@@ -46,7 +45,7 @@ const Navbar: React.FC = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-8 bg-orange-600">
           {navItems.map(item => <Link key={item.name} to={item.path} className={`font-medium hover:text-tayseer-orange transition-colors ${isScrolled ? 'text-tayseer-black dark:text-white' : 'text-white'}`}>
               {item.name}
             </Link>)}
