@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8 bg-orange-600 rounded-sm mx-[19px] px-[29px]">
+        <nav className="hidden md:flex items-center space-x-8 rounded-sm mx-[19px] px-[29px] bg-slate-50">
           {navItems.map(item => <Link key={item.name} to={item.path} className="">
               {item.name}
             </Link>)}
