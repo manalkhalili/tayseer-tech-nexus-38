@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8 rounded-sm mx-[19px] px-[29px] bg-transparent">
-          {navItems.map(item => <Link key={item.name} to={item.path} className="">
+          {navItems.map(item => <Link key={item.name} to={item.path} className="text-tayseer-orange hover:underline">
               {item.name}
             </Link>)}
           <Link to="/contact" className="btn-primary">
