@@ -33,11 +33,11 @@ const Navbar: React.FC = () => {
     name: 'Portfolio',
     path: '/portfolio'
   }, {
-    name: 'Contact',
-    path: '/contact'
-  }, {
     name: 'Blog',
     path: '/blog'
+  }, {
+    name: 'Contact',
+    path: '/contact'
   }];
   return <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white dark:bg-tayseer-black shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container-max flex justify-between items-center">
