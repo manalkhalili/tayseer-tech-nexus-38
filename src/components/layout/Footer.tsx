@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -25,6 +24,10 @@ const Footer: React.FC = () => {
     email: 'info@altayseer.com',
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="bg-tayseer-black text-white pt-16 pb-8">
       <div className="container-max">
@@ -40,8 +43,8 @@ const Footer: React.FC = () => {
               Al-Tayseer International Co. specializes in renewable energy solutions,
               sustainable construction, and environmental technology.
             </p>
+            
             <div className="flex space-x-4">
-              {/* Social Media Icons */}
               <a href="#" className="hover:text-tayseer-orange transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
                   <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05h2.03V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -74,6 +77,7 @@ const Footer: React.FC = () => {
                   <Link 
                     to={department.link} 
                     className="text-gray-300 hover:text-tayseer-orange transition-colors"
+                    onClick={scrollToTop}
                   >
                     {department.name}
                   </Link>
@@ -91,6 +95,7 @@ const Footer: React.FC = () => {
                   <Link 
                     to={link.link} 
                     className="text-gray-300 hover:text-tayseer-orange transition-colors"
+                    onClick={scrollToTop}
                   >
                     {link.name}
                   </Link>
