@@ -22,9 +22,10 @@ const Portfolio = () => {
   useEffect(() => {
     const loadPortfolioData = async () => {
       try {
-        const response = await fetch('/src/data/portfolioData.json');
+        const response = await fetch('/data/portfolioData.json');
         const data = await response.json();
         setProjects(data);
+        console.log('Portfolio data loaded:', data);
       } catch (error) {
         console.error('Error loading portfolio data:', error);
         // Fallback to empty array if loading fails
