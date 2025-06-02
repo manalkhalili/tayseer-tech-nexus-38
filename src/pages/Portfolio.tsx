@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from '../components/layout/Layout';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import SectionTitle from '../components/ui/SectionTitle';
@@ -16,63 +16,26 @@ interface Project {
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState<string>('all');
-  
-  const projects: Project[] = [
-    {
-      id: 1,
-      title: "Large-Scale Solar Farm",
-      description: "A 5MW solar farm installation with 12,500 panels, providing clean energy to over 1,000 homes.",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
-      department: "solar",
-      client: "Green Energy Corporation",
-      completionDate: "January 2023"
-    },
-    {
-      id: 2,
-      title: "Commercial Biogas Plant",
-      description: "A biogas facility processing 50 tons of organic waste daily, generating 2MW of electricity.",
-      image: "https://images.unsplash.com/photo-1511123553522-1950f02e9a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
-      department: "biogas",
-      client: "EcoPower Industries",
-      completionDate: "March 2023"
-    },
-    {
-      id: 3,
-      title: "Urban Hydroponic Farm",
-      description: "A 2,000 sqm vertical hydroponic farm producing 5,000 kg of vegetables monthly in an urban setting.",
-      image: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
-      department: "envirotech",
-      client: "Fresh Urban Produce",
-      completionDate: "June 2023"
-    },
-    {
-      id: 4,
-      title: "Sustainable Office Complex",
-      description: "A LEED Platinum certified 15-story office building with integrated solar panels and rainwater harvesting.",
-      image: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
-      department: "construction",
-      client: "Future Workspace Inc.",
-      completionDate: "September 2023"
-    },
-    {
-      id: 5,
-      title: "Residential Solar Installation",
-      description: "A comprehensive solar solution for a 20-unit residential complex with battery storage.",
-      image: "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
-      department: "solar",
-      client: "Greenliving Apartments",
-      completionDate: "October 2023"
-    },
-    {
-      id: 6,
-      title: "Eco-Tourism Resort",
-      description: "A self-sustainable resort with integrated renewable energy systems and green building practices.",
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
-      department: "construction",
-      client: "EcoVacations Ltd.",
-      completionDate: "December 2023"
-    }
-  ];
+  const [projects, setProjects] = useState<Project[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadPortfolioData = async () => {
+      try {
+        const response = await fetch('/src/data/portfolioData.json');
+        const data = await response.json();
+        setProjects(data);
+      } catch (error) {
+        console.error('Error loading portfolio data:', error);
+        // Fallback to empty array if loading fails
+        setProjects([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadPortfolioData();
+  }, []);
 
   const handleFilterChange = (filter: string) => {
     setActiveFilter(filter);
@@ -81,6 +44,20 @@ const Portfolio = () => {
   const filteredProjects = activeFilter === 'all' 
     ? projects 
     : projects.filter(project => project.department === activeFilter);
+
+  if (loading) {
+    return (
+      <Layout>
+        <div className="pt-24 md:pt-32 pb-16">
+          <div className="container-max">
+            <div className="text-center">
+              <p className="text-lg">Loading portfolio...</p>
+            </div>
+          </div>
+        </div>
+      </Layout>
+    );
+  }
 
   return (
     <Layout>
@@ -165,7 +142,7 @@ const Portfolio = () => {
             ))}
           </div>
 
-          {filteredProjects.length === 0 && (
+          {filteredProjects.length === 0 && !loading && (
             <div className="text-center py-10">
               <p className="text-lg text-gray-600">No projects found for this filter.</p>
             </div>
