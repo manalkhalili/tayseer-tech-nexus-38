@@ -5,6 +5,11 @@
     "title": "Solar Panel System 5KW",
     "description": "High-efficiency monocrystalline solar panels with 25-year warranty.",
     "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
     "category": "solar",
     "price": "$8,500",
     "specifications": {
@@ -25,6 +30,11 @@
     "title": "Biogas Generator 100KW",
     "description": "Industrial biogas generator for waste-to-energy conversion.",
     "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511123553522-1950f02e9a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
     "category": "biogas",
     "price": "$45,000",
     "specifications": {
@@ -45,6 +55,11 @@
     "title": "Water Purification System",
     "description": "Advanced water treatment system for industrial applications.",
     "image": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
     "category": "envirotech",
     "price": "$25,000",
     "specifications": {
@@ -65,6 +80,11 @@
     "title": "Green Building Materials Kit",
     "description": "Sustainable construction materials for eco-friendly buildings.",
     "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
     "category": "construction",
     "price": "$15,000",
     "specifications": {
@@ -85,6 +105,11 @@
     "title": "Solar Water Heater",
     "description": "Efficient solar water heating system for residential use.",
     "image": "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
     "category": "solar",
     "price": "$2,500",
     "specifications": {
@@ -105,6 +130,11 @@
     "title": "Smart Home Biogas Unit",
     "description": "Compact biogas system for household waste management.",
     "image": "https://images.unsplash.com/photo-1511123553522-1950f02e9a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1511123553522-1950f02e9a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
     "category": "biogas",
     "price": "$3,200",
     "specifications": {

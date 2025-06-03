@@ -3,12 +3,14 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Layout from '../components/layout/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 interface Project {
   id: number;
   title: string;
   description: string;
   image: string;
+  images: string[];
   department: 'solar' | 'biogas' | 'envirotech' | 'construction';
   client: string;
   completionDate: string;
@@ -91,13 +93,27 @@ const ProjectDetails: React.FC = () => {
           </button>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Project Image */}
+            {/* Project Images Carousel */}
             <div>
-              <img 
-                src={project.image} 
-                alt={project.title} 
-                className="w-full h-96 object-cover rounded-lg shadow-lg"
-              />
+              <Carousel className="w-full">
+                <CarouselContent>
+                  {project.images?.map((image, index) => (
+                    <CarouselItem key={index}>
+                      <img 
+                        src={image} 
+                        alt={`${project.title} - Image ${index + 1}`} 
+                        className="w-full h-96 object-cover rounded-lg shadow-lg"
+                      />
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                {project.images?.length > 1 && (
+                  <>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                  </>
+                )}
+              </Carousel>
             </div>
 
             {/* Project Info */}
