@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Layout from '../components/layout/Layout';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import SectionTitle from '../components/ui/SectionTitle';
@@ -108,13 +109,15 @@ const Portfolio = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in">
             {filteredProjects.map((project) => (
               <Card key={project.id} className="overflow-hidden hover:shadow-lg transition-all">
-                <div className="aspect-w-16 aspect-h-9">
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="w-full h-64 object-cover"
-                  />
-                </div>
+                <Link to={`/portfolio/${project.id}`}>
+                  <div className="aspect-w-16 aspect-h-9">
+                    <img 
+                      src={project.image} 
+                      alt={project.title} 
+                      className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                </Link>
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <CardTitle>{project.title}</CardTitle>
@@ -137,7 +140,12 @@ const Portfolio = () => {
                   </div>
                 </CardContent>
                 <CardFooter className="border-t pt-4">
-                  <button className="text-tayseer-orange hover:underline">View Project Details →</button>
+                  <Link 
+                    to={`/portfolio/${project.id}`}
+                    className="text-tayseer-orange hover:underline"
+                  >
+                    View Project Details →
+                  </Link>
                 </CardFooter>
               </Card>
             ))}
