@@ -1,0 +1,123 @@
+
+[
+  {
+    "id": 1,
+    "title": "Solar Panel System 5KW",
+    "description": "High-efficiency monocrystalline solar panels with 25-year warranty.",
+    "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "solar",
+    "price": "$8,500",
+    "specifications": {
+      "Power Output": "5KW",
+      "Panel Type": "Monocrystalline",
+      "Efficiency": "22%",
+      "Warranty": "25 years"
+    },
+    "features": [
+      "High efficiency solar cells",
+      "Weather resistant design",
+      "Easy installation",
+      "Smart monitoring system"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Biogas Generator 100KW",
+    "description": "Industrial biogas generator for waste-to-energy conversion.",
+    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "biogas",
+    "price": "$45,000",
+    "specifications": {
+      "Power Output": "100KW",
+      "Fuel Type": "Biogas",
+      "Efficiency": "85%",
+      "Operating Hours": "8000+ hours/year"
+    },
+    "features": [
+      "Automatic operation",
+      "Low maintenance",
+      "Remote monitoring",
+      "Emission compliant"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Water Purification System",
+    "description": "Advanced water treatment system for industrial applications.",
+    "image": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "envirotech",
+    "price": "$25,000",
+    "specifications": {
+      "Capacity": "1000L/hour",
+      "Filtration": "Multi-stage",
+      "Purity": "99.9%",
+      "Power": "2KW"
+    },
+    "features": [
+      "Multi-stage filtration",
+      "Automatic backwash",
+      "Quality monitoring",
+      "Energy efficient"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Green Building Materials Kit",
+    "description": "Sustainable construction materials for eco-friendly buildings.",
+    "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "construction",
+    "price": "$15,000",
+    "specifications": {
+      "Coverage": "100 sqm",
+      "Material": "Recycled composite",
+      "Insulation": "R-30",
+      "Durability": "50+ years"
+    },
+    "features": [
+      "Recycled materials",
+      "High insulation",
+      "Fire resistant",
+      "Easy installation"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Solar Water Heater",
+    "description": "Efficient solar water heating system for residential use.",
+    "image": "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "solar",
+    "price": "$2,500",
+    "specifications": {
+      "Capacity": "300L",
+      "Type": "Evacuated tube",
+      "Efficiency": "75%",
+      "Warranty": "10 years"
+    },
+    "features": [
+      "All weather operation",
+      "Automatic temperature control",
+      "Corrosion resistant",
+      "Low maintenance"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Smart Home Biogas Unit",
+    "description": "Compact biogas system for household waste management.",
+    "image": "https://images.unsplash.com/photo-1511123553522-1950f02e9a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "category": "biogas",
+    "price": "$3,200",
+    "specifications": {
+      "Gas Production": "2-3 cubic meters/day",
+      "Waste Input": "5-8 kg/day",
+      "Size": "2m x 1m x 1.5m",
+      "Material": "Fiberglass"
+    },
+    "features": [
+      "Compact design",
+      "Easy operation",
+      "Odor free",
+      "Cooking gas production"
+    ]
+  }
+]
