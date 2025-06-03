@@ -63,7 +63,6 @@ const Footer: React.FC = () => {
                   <Link 
                     to={department.link} 
                     className="text-gray-300 hover:text-tayseer-orange transition-colors"
-                    onClick={scrollToTop}
                   >
                     {department.name}
                   </Link>
