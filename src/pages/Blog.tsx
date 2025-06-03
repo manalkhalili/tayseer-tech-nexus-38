@@ -12,7 +12,6 @@ interface BlogPost {
   image: string;
   category: string;
   date: string;
-  author: string;
   readTime: string;
 }
 
@@ -25,7 +24,6 @@ const Blog = () => {
       image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
       category: "Solar Energy",
       date: "April 22, 2025",
-      author: "Ahmed Hassan",
       readTime: "6 min read"
     },
     {
@@ -35,7 +33,6 @@ const Blog = () => {
       image: "https://images.unsplash.com/photo-1511123553522-1950f02e9a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
       category: "Biogas",
       date: "April 15, 2025",
-      author: "Layla Mahmoud",
       readTime: "8 min read"
     },
     {
@@ -45,7 +42,6 @@ const Blog = () => {
       image: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
       category: "Hydroponics",
       date: "April 8, 2025",
-      author: "Omar Farouk",
       readTime: "5 min read"
     },
     {
@@ -55,7 +51,6 @@ const Blog = () => {
       image: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
       category: "Construction",
       date: "April 1, 2025",
-      author: "Nour El-Din",
       readTime: "7 min read"
     },
     {
@@ -65,7 +60,6 @@ const Blog = () => {
       image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
       category: "Solar Energy",
       date: "March 25, 2025",
-      author: "Ahmed Hassan",
       readTime: "6 min read"
     },
     {
@@ -75,7 +69,6 @@ const Blog = () => {
       image: "https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
       category: "Smart Technology",
       date: "March 18, 2025",
-      author: "Layla Mahmoud",
       readTime: "9 min read"
     }
   ];
@@ -117,9 +110,7 @@ const Blog = () => {
                 <CardFooter className="flex justify-between items-center border-t pt-4">
                   <div className="flex items-center">
                     <div className="w-8 h-8 bg-tayseer-orange rounded-full flex items-center justify-center text-white font-bold">
-                      {blogPosts[0].author.charAt(0)}
                     </div>
-                    <span className="ml-2 text-sm">{blogPosts[0].author}</span>
                   </div>
                   <span className="text-xs text-gray-600">{blogPosts[0].readTime}</span>
                 </CardFooter>
@@ -154,9 +145,7 @@ const Blog = () => {
                 <CardFooter className="flex justify-between items-center border-t pt-4">
                   <div className="flex items-center">
                     <div className="w-7 h-7 bg-tayseer-orange rounded-full flex items-center justify-center text-white font-bold text-xs">
-                      {post.author.charAt(0)}
                     </div>
-                    <span className="ml-2 text-sm">{post.author}</span>
                   </div>
                   <span className="text-xs text-gray-600">{post.readTime}</span>
                 </CardFooter>

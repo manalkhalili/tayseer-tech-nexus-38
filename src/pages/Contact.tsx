@@ -54,7 +54,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Our Location</h3>
-                    <p className="text-gray-600">123 Al Nahda Street, Dubai, UAE</p>
+                    {/* eslint-disable-next-line no-irregular-whitespace */}
+                    <p className="text-gray-600">Palestine, Tulkarm, New Courts Quarter, Al-Tayseer 1 Building</p>
                   </div>
                 </div>
                 
@@ -66,23 +67,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Phone Number</h3>
-                    <p className="text-gray-600">+971 50 123 4567</p>
-                    <p className="text-gray-600">+971 4 123 4567</p>
+                    <p className="text-gray-600">+972 59-202-6163</p>
                   </div>
                 </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="bg-tayseer-orange/10 p-3 rounded-full text-tayseer-orange">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold mb-1">Email Address</h3>
-                    <p className="text-gray-600">info@altayseer.com</p>
-                    <p className="text-gray-600">support@altayseer.com</p>
-                  </div>
-                </div>
+
+
                 
                 <div className="flex items-start space-x-4">
                   <div className="bg-tayseer-orange/10 p-3 rounded-full text-tayseer-orange">

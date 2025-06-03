@@ -73,12 +73,7 @@ const Portfolio = () => {
 
           {/* Filter Buttons */}
           <div className="flex flex-wrap justify-center mb-12 gap-3">
-            <button 
-              onClick={() => handleFilterChange('all')} 
-              className={`px-6 py-2 rounded-md transition-all ${activeFilter === 'all' ? 'bg-tayseer-orange text-white' : 'bg-gray-200 hover:bg-gray-300'}`}
-            >
-              All Projects
-            </button>
+
             <button 
               onClick={() => handleFilterChange('solar')} 
               className={`px-6 py-2 rounded-md transition-all ${activeFilter === 'solar' ? 'bg-tayseer-orange text-white' : 'bg-gray-200 hover:bg-gray-300'}`}
