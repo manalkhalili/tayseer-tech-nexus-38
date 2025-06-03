@@ -37,22 +37,22 @@ const Index = () => {
   const departments = [{
     title: 'Al-Tayseer Solar',
     description: 'Cutting-edge solar solutions including on-grid, off-grid, hybrid systems, and industrial electricity installations.',
-    image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80',
+    image: '/public/3.png',
     link: '/services'
   }, {
     title: 'Al-Tayseer Biogas',
     description: 'Innovative biogas solutions for homes, farms, and businesses, including bio-toilets and waste management systems.',
-    image: 'https://images.unsplash.com/photo-1511123553522-1950f02e9a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80',
+    image: 'public/1.png',
     link: '/services'
   }, {
     title: 'Al-Tayseer Envirotech',
     description: 'Advanced hydroponic systems (NFT, DWC, Dutch bucket, fodder units) and wastewater treatment solutions.',
-    image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80',
+    image: '/public/2.png',
     link: '/services'
   }, {
     title: 'Al-Tayseer Construction',
     description: 'Green building design, contracting services, and implementation of smart construction technologies.',
-    image: 'https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80',
+    image: '/public/4.png',
     link: '/services'
   }];
   return <Layout>
