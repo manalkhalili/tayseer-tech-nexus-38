@@ -9,7 +9,7 @@ const Services = () => {
       id: 'solar',
       name: 'Al-Tayseer Solar',
       description: 'Harnessing the power of the sun to provide clean, renewable energy solutions for residential, commercial, and industrial applications.',
-      image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80',
+      image: '/public/3.png',
       services: [
         {
           name: 'On-Grid Solar Systems',
@@ -54,7 +54,7 @@ const Services = () => {
       id: 'biogas',
       name: 'Al-Tayseer Biogas',
       description: 'Converting organic waste into clean, renewable energy and valuable fertilizer while reducing environmental impact.',
-      image: 'https://images.unsplash.com/photo-1511123553522-1950f02e9a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80',
+      image: '/public/1.png',
       services: [
         {
           name: 'Home Biogas Units',
@@ -98,7 +98,7 @@ const Services = () => {
       id: 'envirotech',
       name: 'Al-Tayseer Envirotech',
       description: 'Innovative environmental technologies for sustainable agriculture, water conservation, and waste management.',
-      image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80',
+      image: '/public/2.png',
       services: [
         {
           name: 'NFT Hydroponic Systems',
@@ -151,7 +151,7 @@ const Services = () => {
       id: 'construction',
       name: 'Al-Tayseer Construction',
       description: 'Building the future with sustainable construction practices, green building design, and smart technologies.',
-      image: 'https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80',
+      image: '/public/4.png',
       services: [
         {
           name: 'Green Building Design',
