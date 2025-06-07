@@ -116,7 +116,7 @@ const Contact = () => {
                 {/* Google Form Embed */}
                 <div className="w-full h-[600px] border rounded-lg overflow-hidden">
                   <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSf7K9YWZvOXqaJQqKNOq0hS8M8K8G8Z8Q8Y8Y8Y8Y8Y8Y8Y8/viewform?embedded=true"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSfcZCiy2YqcB6vdSlLfNm4F1faL59lqB3kEoVepfOILdRbL1Q/viewform?usp=header"
                     width="100%"
                     height="100%"
                     frameBorder="0"
@@ -138,21 +138,7 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="h-96">
-        <div className="h-full w-full">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.654097295231!2d55.30615951500937!3d25.252853483866485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ccccb92a86f%3A0x6ee56a3e953ad236!2sThe%20Dubai%20Mall!5e0!3m2!1sen!2sae!4v1651223684263!5m2!1sen!2sae"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen={true}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Al-Tayseer International Co. Location"
-          ></iframe>
-        </div>
-      </section>
+
     </Layout>
   );
 };
