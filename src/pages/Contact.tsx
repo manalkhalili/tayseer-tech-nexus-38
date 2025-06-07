@@ -2,20 +2,8 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import SectionTitle from '../components/ui/SectionTitle';
-import { useToast } from '../hooks/use-toast';
 
 const Contact = () => {
-  const { toast } = useToast();
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Message Sent",
-      description: "Thank you for your message. We'll get back to you soon!",
-      duration: 5000,
-    });
-  };
-
   return (
     <Layout>
       {/* Hero Section */}
@@ -55,7 +43,7 @@ const Contact = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Our Location</h3>
                     {/* eslint-disable-next-line no-irregular-whitespace */}
-                    <p className="text-gray-600">Palestine, Tulkarm, New Courts Quarter, Al-Tayseer 1 Building</p>
+                    <p className="text-gray-600">Palestine, Tulkarm, New Courts Quarter, Al-Tayseer 1 Building</p>
                   </div>
                 </div>
                 
@@ -70,8 +58,6 @@ const Contact = () => {
                     <p className="text-gray-600">+972 59-202-6163</p>
                   </div>
                 </div>
-
-
                 
                 <div className="flex items-start space-x-4">
                   <div className="bg-tayseer-orange/10 p-3 rounded-full text-tayseer-orange">
@@ -123,67 +109,29 @@ const Contact = () => {
             <div>
               <div className="bg-white rounded-lg shadow-lg p-8">
                 <h3 className="text-2xl font-bold mb-6">Send Us a Message</h3>
-                <form onSubmit={handleSubmit}>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label htmlFor="name" className="block text-gray-700 mb-2">Your Name *</label>
-                      <input
-                        type="text"
-                        id="name"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-tayseer-orange"
-                        placeholder="John Doe"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="email" className="block text-gray-700 mb-2">Your Email *</label>
-                      <input
-                        type="email"
-                        id="email"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-tayseer-orange"
-                        placeholder="johndoe@example.com"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="phone" className="block text-gray-700 mb-2">Phone Number</label>
-                      <input
-                        type="tel"
-                        id="phone"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-tayseer-orange"
-                        placeholder="+971 50 123 4567"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="subject" className="block text-gray-700 mb-2">Subject *</label>
-                      <input
-                        type="text"
-                        id="subject"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-tayseer-orange"
-                        placeholder="Project Inquiry"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div className="mt-6">
-                    <label htmlFor="message" className="block text-gray-700 mb-2">Your Message *</label>
-                    <textarea
-                      id="message"
-                      rows={5}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-tayseer-orange"
-                      placeholder="How can we help you?"
-                      required
-                    ></textarea>
-                  </div>
-                  <div className="mt-6">
-                    <button
-                      type="submit"
-                      className="w-full bg-tayseer-orange text-white font-medium py-3 px-6 rounded-md hover:bg-orange-600 transition-colors"
-                    >
-                      Send Message
-                    </button>
-                  </div>
-                </form>
+                <div className="text-gray-600 mb-6">
+                  <p>Please fill out our contact form below. We'll get back to you as soon as possible.</p>
+                </div>
+                
+                {/* Google Form Embed */}
+                <div className="w-full h-[600px] border rounded-lg overflow-hidden">
+                  <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSf7K9YWZvOXqaJQqKNOq0hS8M8K8G8Z8Q8Y8Y8Y8Y8Y8Y8Y8/viewform?embedded=true"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    marginHeight={0}
+                    marginWidth={0}
+                    title="Contact Form"
+                    className="border-0"
+                  >
+                    Loading...
+                  </iframe>
+                </div>
+                
+                <div className="mt-4 text-sm text-gray-500">
+                  <p>Having trouble with the form? You can also <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7K9YWZvOXqaJQqKNOq0hS8M8K8G8Z8Q8Y8Y8Y8Y8Y8Y8Y8/viewform" target="_blank" rel="noopener noreferrer" className="text-tayseer-orange hover:underline">open it in a new window</a>.</p>
+                </div>
               </div>
             </div>
           </div>
