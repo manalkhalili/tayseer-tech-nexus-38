@@ -54,7 +54,7 @@ const Services = () => {
       id: 'biogas',
       name: 'Al-Tayseer Biogas',
       description: 'Converting organic waste into clean, renewable energy and valuable fertilizer while reducing environmental impact.',
-      image: '/public/1.png',
+      image: 'public/1.png',
       services: [
         {
           name: 'Home Biogas Units',
@@ -98,7 +98,7 @@ const Services = () => {
       id: 'envirotech',
       name: 'Al-Tayseer Envirotech',
       description: 'Innovative environmental technologies for sustainable agriculture, water conservation, and waste management.',
-      image: '/public/2.png',
+      image: 'public/2.png',
       services: [
         {
           name: 'NFT Hydroponic Systems',
@@ -151,7 +151,7 @@ const Services = () => {
       id: 'construction',
       name: 'Al-Tayseer Construction',
       description: 'Building the future with sustainable construction practices, green building design, and smart technologies.',
-      image: '/public/4.png',
+      image: 'public/4.png',
       services: [
         {
           name: 'Green Building Design',
