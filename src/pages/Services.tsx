@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import SectionTitle from '../components/ui/SectionTitle';
@@ -221,33 +220,35 @@ const Services = () => {
             centered={true}
           />
           
-          <div className="grid grid-cols-1 gap-16">
+          <div className="grid grid-cols-1 gap-8">
             {departments.map((department, index) => (
-              <div key={department.id} id={department.id} className={`grid grid-cols-1 lg:grid-cols-2 gap-8 ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
-                <div className="rounded-lg overflow-hidden shadow-lg">
-                  <img
-                    src={department.image}
-                    alt={department.name}
-                    className="w-full h-full object-cover aspect-video"
-                  />
-                </div>
-                <div>
-                  <h2 className="text-3xl font-bold mb-4 text-tayseer-black">{department.name}</h2>
-                  <div className="h-1 w-24 bg-tayseer-orange mb-6"></div>
-                  <p className="text-gray-600 mb-8">{department.description}</p>
-                  
-                  <div className="space-y-6">
-                    {department.services.map((service, serviceIndex) => (
-                      <div key={serviceIndex} className="flex items-start space-x-4">
-                        <div className="flex-shrink-0 text-tayseer-orange">
-                          {service.icon}
+              <div key={department.id} id={department.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="p-6 flex gap-6 items-start">
+                  <div className="flex-1">
+                    <h2 className="text-3xl font-bold mb-4 text-tayseer-black">{department.name}</h2>
+                    <div className="h-1 w-24 bg-tayseer-orange mb-6"></div>
+                    <p className="text-gray-600 mb-8">{department.description}</p>
+                    
+                    <div className="space-y-6">
+                      {department.services.map((service, serviceIndex) => (
+                        <div key={serviceIndex} className="flex items-start space-x-4">
+                          <div className="flex-shrink-0 text-tayseer-orange">
+                            {service.icon}
+                          </div>
+                          <div>
+                            <h3 className="text-xl font-bold mb-1">{service.name}</h3>
+                            <p className="text-gray-600">{service.description}</p>
+                          </div>
                         </div>
-                        <div>
-                          <h3 className="text-xl font-bold mb-1">{service.name}</h3>
-                          <p className="text-gray-600">{service.description}</p>
-                        </div>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
+                  </div>
+                  <div className="w-64 h-64 flex-shrink-0">
+                    <img
+                      src={department.image}
+                      alt={department.name}
+                      className="w-full h-full object-cover rounded-lg"
+                    />
                   </div>
                 </div>
               </div>
