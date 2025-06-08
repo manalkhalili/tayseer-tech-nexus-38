@@ -2,6 +2,7 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
 import { Card, CardContent } from "../components/ui/card";
+import { Button } from "../components/ui/button";
 
 const ContactForm: React.FC = () => {
   return (
@@ -30,21 +31,117 @@ const ContactForm: React.FC = () => {
                     </p>
                   </div>
 
-                  {/* Google Form Embed */}
-                  <div className="w-full">
-                    <iframe
-                      src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      marginHeight={0}
-                      marginWidth={0}
-                      className="rounded-lg"
-                      title="Contact Form"
-                    >
-                      Loading…
-                    </iframe>
-                  </div>
+                  {/* Contact Form */}
+                  <form
+                    action="https://formsubmit.co/khalilim387@gmail.com"
+                    method="POST"
+                    className="space-y-6"
+                  >
+                    {/* Hidden inputs for FormSubmit configuration */}
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_template" value="table" />
+                    
+                    <div className="grid md:grid-cols-2 gap-6">
+                      {/* First Name */}
+                      <div>
+                        <label htmlFor="firstName" className="block text-sm font-medium text-tayseer-black mb-2">
+                          First Name *
+                        </label>
+                        <input
+                          type="text"
+                          id="firstName"
+                          name="firstName"
+                          required
+                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-tayseer-orange focus:border-transparent transition-colors"
+                          placeholder="Enter your first name"
+                        />
+                      </div>
+
+                      {/* Last Name */}
+                      <div>
+                        <label htmlFor="lastName" className="block text-sm font-medium text-tayseer-black mb-2">
+                          Last Name *
+                        </label>
+                        <input
+                          type="text"
+                          id="lastName"
+                          name="lastName"
+                          required
+                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-tayseer-orange focus:border-transparent transition-colors"
+                          placeholder="Enter your last name"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Email */}
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-medium text-tayseer-black mb-2">
+                        Email Address *
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-tayseer-orange focus:border-transparent transition-colors"
+                        placeholder="Enter your email address"
+                      />
+                    </div>
+
+                    {/* Phone */}
+                    <div>
+                      <label htmlFor="phone" className="block text-sm font-medium text-tayseer-black mb-2">
+                        Phone Number
+                      </label>
+                      <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-tayseer-orange focus:border-transparent transition-colors"
+                        placeholder="Enter your phone number"
+                      />
+                    </div>
+
+                    {/* Subject */}
+                    <div>
+                      <label htmlFor="subject" className="block text-sm font-medium text-tayseer-black mb-2">
+                        Subject *
+                      </label>
+                      <input
+                        type="text"
+                        id="subject"
+                        name="_subject"
+                        required
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-tayseer-orange focus:border-transparent transition-colors"
+                        placeholder="What is this regarding?"
+                      />
+                    </div>
+
+                    {/* Message */}
+                    <div>
+                      <label htmlFor="message" className="block text-sm font-medium text-tayseer-black mb-2">
+                        Message *
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        required
+                        rows={6}
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-tayseer-orange focus:border-transparent transition-colors resize-vertical"
+                        placeholder="Tell us about your project or inquiry..."
+                      ></textarea>
+                    </div>
+
+                    {/* Submit Button */}
+                    <div className="text-center">
+                      <Button
+                        type="submit"
+                        className="bg-tayseer-orange hover:bg-orange-600 text-white font-medium py-3 px-8 rounded-lg transition-colors"
+                      >
+                        Send Message
+                      </Button>
+                    </div>
+                  </form>
 
                   {/* Contact Information */}
                   <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
