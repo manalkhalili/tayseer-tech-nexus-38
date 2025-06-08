@@ -1,4 +1,3 @@
-
 import React from "react";
 import Layout from "../components/layout/Layout";
 import { Card, CardContent } from "../components/ui/card";
@@ -7,7 +6,7 @@ import { Button } from "../components/ui/button";
 const ContactForm: React.FC = () => {
   return (
     <Layout>
-      <div className="bg-tayseer-light-gray min-h-screen">
+      <div className="bg-tayseer-light-gray min-h-screen pt-24">
         <div className="section-padding">
           <div className="container-max">
             {/* Header Section */}
