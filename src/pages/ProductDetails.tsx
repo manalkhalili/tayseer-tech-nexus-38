@@ -97,6 +97,10 @@ const ProductDetails: React.FC = () => {
                         src={image} 
                         alt={`${product.title} - Image ${index + 1}`} 
                         className="w-full h-96 object-cover rounded-lg shadow-lg"
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement;
+                          target.src = `https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`;
+                        }}
                       />
                     </CarouselItem>
                   ))}

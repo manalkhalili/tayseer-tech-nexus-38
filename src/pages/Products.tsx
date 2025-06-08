@@ -78,7 +78,12 @@ const Products: React.FC = () => {
 
           {/* Filter Buttons */}
           <div className="flex flex-wrap justify-center mb-12 gap-3">
-
+            <button 
+              onClick={() => handleFilterChange('all')} 
+              className={`px-6 py-2 rounded-md transition-all ${activeFilter === 'all' ? 'bg-tayseer-orange text-white' : 'bg-gray-200 hover:bg-gray-300'}`}
+            >
+              All
+            </button>
             <button 
               onClick={() => handleFilterChange('solar')} 
               className={`px-6 py-2 rounded-md transition-all ${activeFilter === 'solar' ? 'bg-tayseer-orange text-white' : 'bg-gray-200 hover:bg-gray-300'}`}
@@ -117,6 +122,10 @@ const Products: React.FC = () => {
                     src={product.image} 
                     alt={product.title} 
                     className="w-full h-64 object-cover hover:scale-105 transition-transform"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = `https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`;
+                    }}
                   />
                 </div>
                 <CardHeader>

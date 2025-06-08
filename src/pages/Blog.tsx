@@ -21,7 +21,7 @@ const Blog = () => {
       id: 1,
       title: "The Future of Solar Energy: Innovations and Trends",
       excerpt: "Explore the latest innovations in solar technology and how they're making renewable energy more accessible and efficient than ever before.",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Solar Energy",
       date: "April 22, 2025",
       readTime: "6 min read"
@@ -30,7 +30,7 @@ const Blog = () => {
       id: 2,
       title: "Biogas: Turning Waste into Energy",
       excerpt: "Learn how biogas technology is revolutionizing waste management while providing a sustainable source of energy for communities worldwide.",
-      image: "https://images.unsplash.com/photo-1511123553522-1950f02e9a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Biogas",
       date: "April 15, 2025",
       readTime: "8 min read"
@@ -39,7 +39,7 @@ const Blog = () => {
       id: 3,
       title: "Hydroponic Farming: Growing More with Less",
       excerpt: "Discover how hydroponic systems are changing agriculture by using 90% less water while increasing crop yields and quality.",
-      image: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Hydroponics",
       date: "April 8, 2025",
       readTime: "5 min read"
@@ -48,7 +48,7 @@ const Blog = () => {
       id: 4,
       title: "Green Building Materials Revolutionizing Construction",
       excerpt: "Explore innovative sustainable building materials that are reducing environmental impact without compromising on quality or durability.",
-      image: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Construction",
       date: "April 1, 2025",
       readTime: "7 min read"
@@ -57,7 +57,7 @@ const Blog = () => {
       id: 5,
       title: "Solar Storage Solutions: Beyond Batteries",
       excerpt: "Innovative approaches to storing solar energy that go beyond traditional battery solutions, promising longer storage capacities.",
-      image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
+      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Solar Energy",
       date: "March 25, 2025",
       readTime: "6 min read"
@@ -66,7 +66,7 @@ const Blog = () => {
       id: 6,
       title: "Smart Homes: Integrating Renewable Energy Systems",
       excerpt: "How modern smart home technology is making it easier than ever to efficiently manage and optimize renewable energy use.",
-      image: "https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Smart Technology",
       date: "March 18, 2025",
       readTime: "9 min read"
@@ -91,6 +91,10 @@ const Blog = () => {
                   src={blogPosts[0].image} 
                   alt={blogPosts[0].title} 
                   className="w-full h-64 md:h-full object-cover"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = `https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`;
+                  }}
                 />
               </div>
               <div className="md:w-1/2 flex flex-col justify-between">
@@ -127,6 +131,10 @@ const Blog = () => {
                     src={post.image} 
                     alt={post.title} 
                     className="w-full h-56 object-cover"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = `https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`;
+                    }}
                   />
                 </div>
                 <CardHeader>
