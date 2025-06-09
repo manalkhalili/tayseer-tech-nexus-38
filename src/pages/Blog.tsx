@@ -85,18 +85,18 @@ const Blog = () => {
 
           {/* Featured Post */}
           <div className="mb-12">
-            <Card className="flex flex-col md:flex-row overflow-hidden">
-              <div className="md:w-1/2">
+            <Card className="flex flex-col md:flex-row overflow-hidden hover:shadow-lg transition-all">
+              <Link to={`/blog/${blogPosts[0].id}`} className="md:w-1/2">
                 <img 
                   src={blogPosts[0].image} 
                   alt={blogPosts[0].title} 
-                  className="w-full h-64 md:h-full object-cover"
+                  className="w-full h-64 md:h-full object-cover hover:scale-105 transition-transform"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.src = `https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`;
                   }}
                 />
-              </div>
+              </Link>
               <div className="md:w-1/2 flex flex-col justify-between">
                 <CardHeader>
                   <div className="flex items-center mb-2">
@@ -106,16 +106,22 @@ const Blog = () => {
                     <span className="mx-2 text-gray-400">•</span>
                     <span className="text-sm text-gray-600">{blogPosts[0].date}</span>
                   </div>
-                  <CardTitle className="text-2xl md:text-3xl">{blogPosts[0].title}</CardTitle>
+                  <Link to={`/blog/${blogPosts[0].id}`}>
+                    <CardTitle className="text-2xl md:text-3xl hover:text-tayseer-orange transition-colors">
+                      {blogPosts[0].title}
+                    </CardTitle>
+                  </Link>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">{blogPosts[0].excerpt}</p>
                 </CardContent>
                 <CardFooter className="flex justify-between items-center border-t pt-4">
-                  <div className="flex items-center">
-                    <div className="w-8 h-8 bg-tayseer-orange rounded-full flex items-center justify-center text-white font-bold">
-                    </div>
-                  </div>
+                  <Link 
+                    to={`/blog/${blogPosts[0].id}`}
+                    className="text-tayseer-orange hover:underline"
+                  >
+                    Read More →
+                  </Link>
                   <span className="text-xs text-gray-600">{blogPosts[0].readTime}</span>
                 </CardFooter>
               </div>
@@ -126,17 +132,17 @@ const Blog = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in">
             {blogPosts.slice(1).map((post) => (
               <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-all flex flex-col">
-                <div>
+                <Link to={`/blog/${post.id}`}>
                   <img 
                     src={post.image} 
                     alt={post.title} 
-                    className="w-full h-56 object-cover"
+                    className="w-full h-56 object-cover hover:scale-105 transition-transform"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.src = `https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`;
                     }}
                   />
-                </div>
+                </Link>
                 <CardHeader>
                   <div className="flex items-center mb-2">
                     <span className="text-xs bg-tayseer-orange/20 text-tayseer-orange rounded px-2 py-1">
@@ -145,16 +151,22 @@ const Blog = () => {
                     <span className="mx-2 text-gray-400">•</span>
                     <span className="text-xs text-gray-600">{post.date}</span>
                   </div>
-                  <CardTitle className="text-xl line-clamp-2">{post.title}</CardTitle>
+                  <Link to={`/blog/${post.id}`}>
+                    <CardTitle className="text-xl line-clamp-2 hover:text-tayseer-orange transition-colors">
+                      {post.title}
+                    </CardTitle>
+                  </Link>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <p className="text-gray-600 line-clamp-3">{post.excerpt}</p>
                 </CardContent>
                 <CardFooter className="flex justify-between items-center border-t pt-4">
-                  <div className="flex items-center">
-                    <div className="w-7 h-7 bg-tayseer-orange rounded-full flex items-center justify-center text-white font-bold text-xs">
-                    </div>
-                  </div>
+                  <Link 
+                    to={`/blog/${post.id}`}
+                    className="text-tayseer-orange hover:underline"
+                  >
+                    Read More →
+                  </Link>
                   <span className="text-xs text-gray-600">{post.readTime}</span>
                 </CardFooter>
               </Card>
