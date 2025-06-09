@@ -12,7 +12,6 @@ interface BlogPost {
   image: string;
   category: string;
   date: string;
-  readTime: string;
 }
 
 const Blog = () => {
@@ -23,8 +22,7 @@ const Blog = () => {
       excerpt: "Explore the latest innovations in solar technology and how they're making renewable energy more accessible and efficient than ever before.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Solar Energy",
-      date: "April 22, 2025",
-      readTime: "6 min read"
+      date: "April 22, 2025"
     },
     {
       id: 2,
@@ -32,8 +30,7 @@ const Blog = () => {
       excerpt: "Learn how biogas technology is revolutionizing waste management while providing a sustainable source of energy for communities worldwide.",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Biogas",
-      date: "April 15, 2025",
-      readTime: "8 min read"
+      date: "April 15, 2025"
     },
     {
       id: 3,
@@ -41,8 +38,7 @@ const Blog = () => {
       excerpt: "Discover how hydroponic systems are changing agriculture by using 90% less water while increasing crop yields and quality.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Hydroponics",
-      date: "April 8, 2025",
-      readTime: "5 min read"
+      date: "April 8, 2025"
     },
     {
       id: 4,
@@ -50,8 +46,7 @@ const Blog = () => {
       excerpt: "Explore innovative sustainable building materials that are reducing environmental impact without compromising on quality or durability.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Construction",
-      date: "April 1, 2025",
-      readTime: "7 min read"
+      date: "April 1, 2025"
     },
     {
       id: 5,
@@ -59,8 +54,7 @@ const Blog = () => {
       excerpt: "Innovative approaches to storing solar energy that go beyond traditional battery solutions, promising longer storage capacities.",
       image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Solar Energy",
-      date: "March 25, 2025",
-      readTime: "6 min read"
+      date: "March 25, 2025"
     },
     {
       id: 6,
@@ -68,8 +62,7 @@ const Blog = () => {
       excerpt: "How modern smart home technology is making it easier than ever to efficiently manage and optimize renewable energy use.",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       category: "Smart Technology",
-      date: "March 18, 2025",
-      readTime: "9 min read"
+      date: "March 18, 2025"
     }
   ];
 
@@ -122,7 +115,6 @@ const Blog = () => {
                   >
                     Read More →
                   </Link>
-                  <span className="text-xs text-gray-600">{blogPosts[0].readTime}</span>
                 </CardFooter>
               </div>
             </Card>
@@ -167,7 +159,6 @@ const Blog = () => {
                   >
                     Read More →
                   </Link>
-                  <span className="text-xs text-gray-600">{post.readTime}</span>
                 </CardFooter>
               </Card>
             ))}
