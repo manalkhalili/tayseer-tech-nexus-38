@@ -33,7 +33,7 @@ const About = () => {
       ),
     },
     {
-      title: 'Customer Focus',
+      title: 'Customer Focus' ,
       description: 'We strive to understand and meet the unique needs of each client.',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12">
@@ -101,7 +101,8 @@ const About = () => {
             {values.map((value, index) => (
               <div key={index} className="bg-white rounded-lg p-6 text-center">
                 <div className="text-tayseer-orange mx-auto mb-4">{value.icon}</div>
-                <h3 className="text-xl font-bold mb-3">{value.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-black">{value.title}</h3>
+
                 <p className="text-gray-600">{value.description}</p>
               </div>
             ))}

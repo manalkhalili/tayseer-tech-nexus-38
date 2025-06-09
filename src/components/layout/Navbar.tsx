@@ -34,10 +34,10 @@ const Navbar: React.FC = () => {
   }, {
     name: 'Portfolio',
     path: '/portfolio'
-  }, {
+  }, /*{
     name: 'Our Team',
     path: '/our-team'
-  }, {
+  },*/ {
     name: 'Blog',
     path: '/blog'
   }, {
