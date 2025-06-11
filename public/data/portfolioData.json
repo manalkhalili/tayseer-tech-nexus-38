@@ -33,7 +33,7 @@
     "id": 2,
     "title": "Educational Environmental Classroom",
     "description": "An integrated environmental classroom combining biogas, aquaponics, and traditional agriculture at St. George School in Ramallah, Palestine.",
-    "image": "public/assets/IMG-20250611-WA0022.jpg",
+    "image": "/assets/IMG-20250611-WA0022.jpg",
     "images": [
       "/assets/IMG-20250611-WA0022.jpg",
       "/assets/IMG-20250611-WA0024.jpg",
