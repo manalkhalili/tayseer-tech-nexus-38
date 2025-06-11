@@ -17,17 +17,17 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({
 }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-      <div className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-start">
+      <div className="p-3 md:p-4 flex flex-col md:flex-row gap-3 md:gap-4 items-start">
         <div className="flex-1 order-2 md:order-1">
-          <h3 className="text-tayseer-black text-lg md:text-xl font-bold mb-3 md:mb-4">
+          <h3 className="text-tayseer-black text-base md:text-lg font-bold mb-2 md:mb-3">
             {title}
           </h3>
-          <p className="text-gray-600 mb-4 md:mb-5 leading-relaxed text-sm md:text-base">
+          <p className="text-gray-600 mb-3 md:mb-4 leading-relaxed text-xs md:text-sm">
             {description}
           </p>
           <Link
             to={link}
-            className="bg-tayseer-orange text-white py-2 px-4 rounded-md inline-flex items-center hover:bg-orange-600 transition-colors text-sm md:text-base"
+            className="bg-tayseer-orange text-white py-1.5 px-3 rounded-md inline-flex items-center hover:bg-orange-600 transition-colors text-xs md:text-sm"
           >
             Explore
             <svg
@@ -36,7 +36,7 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-4 h-4 ml-1"
+              className="w-3 h-3 ml-1"
             >
               <path
                 strokeLinecap="round"
@@ -46,11 +46,11 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({
             </svg>
           </Link>
         </div>
-        <div className="w-full md:w-32 h-32 md:h-32 flex-shrink-0 order-1 md:order-2">
+        <div className="w-full md:w-20 h-20 md:h-20 flex-shrink-0 order-1 md:order-2">
           <img
             src={image}
             alt={title}
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-md"
           />
         </div>
       </div>
