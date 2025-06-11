@@ -151,7 +151,7 @@ const ContactForm: React.FC = () => {
                         </svg>
                       </div>
                       <h3 className="font-heading font-semibold text-tayseer-black">Email</h3>
-                      <p className="text-tayseer-gray">khalilim387@gmail.com</p>
+                      <p className="text-tayseer-gray">info@al-tayseer.ps</p>
                     </div>
 
                     <div className="space-y-2">
@@ -161,7 +161,7 @@ const ContactForm: React.FC = () => {
                         </svg>
                       </div>
                       <h3 className="font-heading font-semibold text-tayseer-black">Phone</h3>
-                      <p className="text-tayseer-gray">+1 (555) 123-4567</p>
+                      <p className="text-tayseer-gray">+970 (595) 563-555</p>
                     </div>
 
                     <div className="space-y-2">
@@ -172,7 +172,7 @@ const ContactForm: React.FC = () => {
                         </svg>
                       </div>
                       <h3 className="font-heading font-semibold text-tayseer-black">Address</h3>
-                      <p className="text-tayseer-gray">123 Business St, City, State 12345</p>
+                      <p className="text-tayseer-gray">Palestine, Tulkarm, New Courts Quarter</p>
                     </div>
                   </div>
                 </CardContent>
