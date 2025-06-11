@@ -185,6 +185,39 @@
       "Organic waste processing"
     ],
     "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "detailedDescription": "This eco-tourism resort demonstrates how luxury hospitality can be completely sustainable. The resort operates entirely on renewable energy and features innovative water recycling systems, organic waste processing, and buildings constructed with local, sustainable materials that blend harmoniously with the natural environment."
+    "detailedDescription": "This eco-tourism resort demonstrates how luxury hospitality can be completely sustainable. The resort operates entirely on renewable energy and features innovative water recycling systems, organic waste processing, and buildings constructed with local, sustainable materials that blend harmoniously with the natural environment."},
+  {
+    "id": 7,
+    "title": "NFT & Dutch Bucket Hydroponic System",
+    "description": "A smart hydroponic farming system combining NFT and Dutch Bucket techniques for efficient, soil-free cultivation using recycled water and nutrient-rich solutions.",
+    "image": "public/lovable-uploads/المدرسة الوطنية 1.jpg",
+    "images": [
+      "public/lovable-uploads/المدرسة الوطنية 1.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 2.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 4.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 5.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 16.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 3.jpg"
+    ],
+    "department": "envirotech",
+    "client": "National School",
+    "completionDate": "April 2025",
+    "location": "Ramallah, Palestine",
+    "projectValue": "0",
+    "duration": "0",
+    "specifications": {
+      "Farm Area": "1,000 sqm",
+      "Production": "10000 Plant/month",
+      "Crop Varieties": "3 types",
+      "Water Savings": "95% vs traditional"
+    },
+    "features": [
+      "Vertical growing systems",
+      "NFT Hydroponic System",
+      "Automated nutrient delivery",
+      "Climate control system"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "detailedDescription": "This innovative urban hydroponic farm maximizes food production in minimal space. Using vertical growing techniques and precision agriculture technology, the facility produces fresh vegetables year-round with 95% less water than traditional farming methods. The controlled environment ensures optimal growing conditions and eliminates the need for pesticides."
   }
 ]
