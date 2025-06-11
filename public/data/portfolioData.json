@@ -190,14 +190,14 @@
     "id": 7,
     "title": "NFT & Dutch Bucket Hydroponic System",
     "description": "A smart hydroponic farming system combining NFT and Dutch Bucket techniques for efficient, soil-free cultivation using recycled water and nutrient-rich solutions.",
-    "image": "public/lovable-uploads/1.jpg",
+    "image": "public/lovable-uploads/المدرسة الوطنية 1.jpg",
     "images": [
-      "/public/lovable-uploads/1.jpg",
-      "/public/lovable-uploads/المدرسة الوطنية 2.jpg",
-      "/public/lovable-uploads/المدرسة الوطنية 4.jpg",
-      "/public/lovable-uploads/المدرسة الوطنية 5.jpg",
-      "/public/lovable-uploads/المدرسة الوطنية 16.jpg",
-      "/public/lovable-uploads/المدرسة الوطنية 3.jpg"
+      "public/lovable-uploads/المدرسة الوطنية 1.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 2.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 4.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 5.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 16.jpg",
+      "public/lovable-uploads/المدرسة الوطنية 3.jpg"
     ],
     "department": "envirotech",
     "client": "National School",
