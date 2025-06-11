@@ -32,7 +32,7 @@ const ContactForm: React.FC = () => {
 
                   {/* Contact Form */}
                   <form
-                    action="https://formsubmit.co/khalilim387@gmail.com"
+                    action="https://formsubmit.co/ali.ta.odeh@gmail.com"
                     method="POST"
                     className="space-y-6"
                   >
