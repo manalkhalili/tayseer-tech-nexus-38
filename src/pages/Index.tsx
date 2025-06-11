@@ -37,22 +37,22 @@ const Index = () => {
   const departments = [{
     title: 'Al-Tayseer Solar',
     description: 'Cutting-edge solar solutions including on-grid, off-grid, hybrid systems, and industrial electricity installations.',
-    image: '/public/assets/3.png',
+    image: '/assets/3.png',
     link: '/services'
   }, {
     title: 'Al-Tayseer Biogas',
     description: 'Innovative biogas solutions for homes, farms, and businesses, including bio-toilets and waste management systems.',
-    image: 'public/assets/1.png',
+    image: '/assets/1.png',
     link: '/services'
   }, {
     title: 'Al-Tayseer Envirotech',
     description: 'Advanced hydroponic systems (NFT, DWC, Dutch bucket, fodder units) and wastewater treatment solutions.',
-    image: '/public/assets/2.png',
+    image: '/assets/2.png',
     link: '/services'
   }, {
     title: 'Al-Tayseer Construction',
     description: 'Green building design, contracting services, and implementation of smart construction technologies.',
-    image: '/public/assets/4.png',
+    image: '/assets/4.png',
     link: '/services'
   }];
   return <Layout>
