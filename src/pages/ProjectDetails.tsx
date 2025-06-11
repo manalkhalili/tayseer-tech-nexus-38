@@ -15,8 +15,6 @@ interface Project {
   client: string;
   completionDate: string;
   location: string;
-  projectValue: string;
-  duration: string;
   specifications: Record<string, string>;
   features: string[];
   youtubeUrl?: string;
@@ -146,14 +144,8 @@ const ProjectDetails: React.FC = () => {
                   <span className="font-medium text-gray-700">Location:</span>
                   <span className="text-gray-900">{project.location}</span>
                 </div>
-                <div className="flex justify-between border-b pb-2">
-                  <span className="font-medium text-gray-700">Project Value:</span>
-                  <span className="text-gray-900 font-bold text-tayseer-orange">{project.projectValue}</span>
-                </div>
-                <div className="flex justify-between border-b pb-2">
-                  <span className="font-medium text-gray-700">Duration:</span>
-                  <span className="text-gray-900">{project.duration}</span>
-                </div>
+
+
                 <div className="flex justify-between border-b pb-2">
                   <span className="font-medium text-gray-700">Completed:</span>
                   <span className="text-gray-900">{project.completionDate}</span>
