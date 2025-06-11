@@ -1,33 +1,32 @@
 [
   {
     "id": 1,
-    "title": "Large-Scale Solar Farm",
-    "description": "A 5MW solar farm installation with 12,500 panels, providing clean energy to over 1,000 homes.",
-    "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
+    "title": "BioToilet System",
+    "description": "An innovative environmental solution that processes human waste to generate clean cooking gas while promoting ecological sustainability.",
+    "image": "/assets/بيت فجار 1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80"
+      "/assets/بيت فجار 1.jpg",
+      "/assets/بيت فجار 3.jpg",
+      "/assets/بيت فجار 2.jpg"
     ],
-    "department": "solar",
-    "client": "Green Energy Corporation",
-    "completionDate": "January 2023",
-    "location": "California, USA",
+    "department": "biogas",
+    "client": "Beit Fajjar Municipality",
+    "completionDate": "June 2025",
+    "location": "Beit Fajjar, Palestine",
     "specifications": {
-      "Total Panels": "12,500 units",
-      "Power Output": "5MW",
-      "Annual Energy": "8,500 MWh",
-      "CO2 Reduction": "4,250 tons/year"
+      "Waste Processing": "Human waste treatment",
+      "Gas Production": "Biogas for clean cooking",
+      "Sanitation": "Eco-friendly dry toilet system",
+      "Sustainability": "Reduces reliance on traditional energy sources"
     },
     "features": [
-      "High-efficiency monocrystalline panels",
-      "Advanced tracking system",
-      "Smart grid integration",
-      "Remote monitoring capabilities"
+      "Environmentally safe waste treatment",
+      "Biogas generation for cooking",
+      "Odor control system",
+      "Low maintenance design"
     ],
-    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "detailedDescription": "This large-scale solar farm represents a significant step towards renewable energy adoption. The project includes state-of-the-art solar tracking systems that follow the sun's movement throughout the day, maximizing energy capture. The installation features high-efficiency monocrystalline panels with a 25-year warranty, ensuring long-term reliability and performance."
+    "youtubeUrl": "",
+    "detailedDescription": "The BioToilet project in Beit Fajjar Public Park introduces a natural and safe method of treating human waste to produce clean cooking gas. This sustainable system improves living conditions and reduces dependency on conventional energy resources, while fostering environmental awareness and preservation."
   },
   {
     "id": 2,
@@ -69,62 +68,65 @@
 
   {
     "id": 3,
-    "title": "Urban Hydroponic Farm",
-    "description": "A 2,000 sqm vertical hydroponic farm producing 5,000 kg of vegetables monthly in an urban setting.",
-    "image": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
+    "title": "Educational Environmental Classroom - Friends School",
+    "description": "An educational environmental unit integrating biogas, hydroponics, and organic farming systems in Friends School, Ramallah.",
+    "image": "/assets/475471889_934275412154700_1190930456628154829_n.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80"
+      "/assets/475732400_934275478821360_3077869954573212470_n.jpg",
+      "/assets/475783577_934275388821369_6008007550219812482_n.jpg",
+      "/assets/475787864_934275398821368_4803881922509778657_n.jpg"
     ],
-    "department": "envirotech",
-    "client": "Fresh Urban Produce",
-    "completionDate": "June 2023",
-    "location": "New York, USA",
-
+    "department": "biogas",
+    "client": "Friends School - Ramallah",
+    "completionDate": "April 2024",
+    "location": "Ramallah, Palestine",
     "specifications": {
-      "Farm Area": "2,000 sqm",
-      "Production": "5,000 kg/month",
-      "Crop Varieties": "15 types",
-      "Water Savings": "95% vs traditional"
+      "Biogas System": "Processes organic waste to produce cooking gas",
+      "Hydroponics (NFT)": "Soilless cultivation using nutrient film technique",
+      "Traditional Farming": "Outdoor soil-based planting area",
+      "Composter": "Biological composting unit for waste recycling",
+      "Seed Incubator": "Mini nursery for seedlings and educational use"
     },
     "features": [
-      "Vertical growing systems",
-      "LED grow lights",
-      "Automated nutrient delivery",
-      "Climate control system"
+      "Interactive educational setup",
+      "Sustainable gas production",
+      "Hands-on experience in clean agriculture",
+      "Supports environmental awareness",
+      "Suitable for student learning and workshops"
     ],
-    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "detailedDescription": "This innovative urban hydroponic farm maximizes food production in minimal space. Using vertical growing techniques and precision agriculture technology, the facility produces fresh vegetables year-round with 95% less water than traditional farming methods. The controlled environment ensures optimal growing conditions and eliminates the need for pesticides."
+    "youtubeUrl": "",
+    "detailedDescription": "This eco-friendly educational classroom at Friends School in Ramallah combines multiple green technologies into a learning platform. It includes a biogas system for processing organic waste and producing cooking gas, a hydroponic NFT setup for efficient water-based agriculture, traditional soil farming plots, a composting unit to manage biodegradable waste, and a seed nursery. The project offers students a practical understanding of sustainability, clean energy, and food security."
   },
   {
     "id": 4,
-    "title": "Sustainable Office Complex",
-    "description": "A LEED Platinum certified 15-story office building with integrated solar panels and rainwater harvesting.",
-    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
+    "title": "Educational Environmental Classroom - Al-Mustaqbal School",
+    "description": "An educational environmental unit integrating biogas, hydroponics, and organic farming systems in Al-Mustaqbal School, Ramallah.",
+    "image": "/assets/4340.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80"
+      "/assets/4345.jpg",
+      "/assets/4346.jpg",
+      "/assets/4347.jpg"
     ],
-    "department": "construction",
-    "client": "Future Workspace Inc.",
-    "completionDate": "September 2023",
-    "location": "Seattle, USA",
+    "department": "biogas",
+    "client": "Al-Mustaqbal School - Ramallah",
+    "completionDate": "April 2024",
+    "location": "Ramallah, Palestine",
     "specifications": {
-      "Building Height": "15 stories",
-      "Floor Area": "50,000 sqm",
-      "LEED Rating": "Platinum",
-      "Energy Efficiency": "40% above baseline"
+      "Biogas System": "Processes organic waste to produce cooking gas",
+      "Hydroponics (NFT)": "Soilless cultivation using nutrient film technique",
+      "Traditional Farming": "Outdoor soil-based planting area",
+      "Composter": "Biological composting unit for waste recycling",
+      "Seed Incubator": "Mini nursery for seedlings and educational use"
     },
     "features": [
-      "Integrated solar panels",
-      "Rainwater harvesting system",
-      "Smart building automation",
-      "Green roof and walls"
+      "Interactive educational setup",
+      "Sustainable gas production",
+      "Hands-on experience in clean agriculture",
+      "Supports environmental awareness",
+      "Suitable for student learning and workshops"
     ],
-    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "detailedDescription": "This LEED Platinum certified office complex sets new standards for sustainable construction. The building features integrated renewable energy systems, advanced water management, and smart building technologies that reduce environmental impact while creating a healthy, productive workspace for tenants."
+    "youtubeUrl": "",
+    "detailedDescription": "This eco-friendly educational classroom at Al-Mustaqbal School in Ramallah combines multiple green technologies into a learning platform. It includes a biogas system for processing organic waste and producing cooking gas, a hydroponic NFT setup for efficient water-based agriculture, traditional soil farming plots, a composting unit to manage biodegradable waste, and a seed nursery. The project offers students a practical understanding of sustainability, clean energy, and food security."
   },
   {
     "id": 5,
