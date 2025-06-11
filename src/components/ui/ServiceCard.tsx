@@ -16,13 +16,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   link,
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6 transition-all hover:shadow-xl hover:-translate-y-1 border-t-4 border-tayseer-orange">
-      <div className="text-tayseer-orange mb-4">{icon}</div>
-      <h3 className="text-xl font-bold mb-3">{title}</h3>
-      <p className="text-gray-600 mb-5">{description}</p>
+    <div className="bg-white rounded-lg shadow-lg p-6 transition-all hover:shadow-xl hover:-translate-y-1 border-t-4 border-tayseer-orange h-full flex flex-col">
+      <div className="text-tayseer-orange mb-6 flex justify-center md:justify-start">{icon}</div>
+      <h3 className="text-xl font-bold mb-4 text-center md:text-left leading-tight">{title}</h3>
+      <p className="text-gray-600 mb-6 leading-relaxed text-center md:text-left flex-grow text-sm">{description}</p>
       <Link
         to={link}
-        className="text-tayseer-orange font-medium hover:underline flex items-center"
+        className="text-tayseer-orange font-medium hover:underline flex items-center justify-center md:justify-start mt-auto pt-2"
       >
         Learn More
         <svg
