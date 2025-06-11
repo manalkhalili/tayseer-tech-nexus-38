@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
   return <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white dark:bg-tayseer-black shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container-max flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src="/lovable-uploads/5ff76fb1-f0b4-4556-9464-820a5130a055.png" alt="Al-Tayseer Logo" className="h-20 md:h-24 object-contain" />
+          <img src="/assets/5ff76fb1-f0b4-4556-9464-820a5130a055.png" alt="Al-Tayseer Logo" className="h-20 md:h-24 object-contain" />
         </Link>
 
         {/* Desktop Navigation */}
