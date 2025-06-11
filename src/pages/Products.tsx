@@ -11,7 +11,6 @@ interface Product {
   description: string;
   image: string;
   category: 'solar' | 'biogas' | 'envirotech' | 'construction';
-  price: string;
   specifications: Record<string, string>;
   features: string[];
 }
@@ -141,7 +140,6 @@ const Products: React.FC = () => {
                   <div className="text-sm text-gray-600">
                     <div className="flex justify-between mb-2">
                       <span className="font-medium">Price:</span>
-                      <span className="text-tayseer-orange font-bold">{product.price}</span>
                     </div>
                     <div className="mb-3">
                       <span className="font-medium">Key Features:</span>

@@ -15,8 +15,6 @@
     "client": "Green Energy Corporation",
     "completionDate": "January 2023",
     "location": "California, USA",
-    "projectValue": "$12 Million",
-    "duration": "8 months",
     "specifications": {
       "Total Panels": "12,500 units",
       "Power Output": "5MW",
@@ -46,8 +44,6 @@
     "client": "EcoPower Industries",
     "completionDate": "March 2023",
     "location": "Texas, USA",
-    "projectValue": "$8.5 Million",
-    "duration": "12 months",
     "specifications": {
       "Waste Processing": "50 tons/day",
       "Power Output": "2MW",
@@ -77,8 +73,7 @@
     "client": "Fresh Urban Produce",
     "completionDate": "June 2023",
     "location": "New York, USA",
-    "projectValue": "$3.2 Million",
-    "duration": "6 months",
+
     "specifications": {
       "Farm Area": "2,000 sqm",
       "Production": "5,000 kg/month",
@@ -108,8 +103,6 @@
     "client": "Future Workspace Inc.",
     "completionDate": "September 2023",
     "location": "Seattle, USA",
-    "projectValue": "$25 Million",
-    "duration": "18 months",
     "specifications": {
       "Building Height": "15 stories",
       "Floor Area": "50,000 sqm",
@@ -139,8 +132,6 @@
     "client": "Greenliving Apartments",
     "completionDate": "October 2023",
     "location": "Arizona, USA",
-    "projectValue": "$800,000",
-    "duration": "3 months",
     "specifications": {
       "Total Units": "20 apartments",
       "Panel Capacity": "250kW",
@@ -170,8 +161,6 @@
     "client": "EcoVacations Ltd.",
     "completionDate": "December 2023",
     "location": "Costa Rica",
-    "projectValue": "$15 Million",
-    "duration": "24 months",
     "specifications": {
       "Resort Capacity": "100 guests",
       "Building Area": "8,000 sqm",
@@ -203,8 +192,6 @@
     "client": "National School",
     "completionDate": "April 2025",
     "location": "Ramallah, Palestine",
-    "projectValue": "0",
-    "duration": "0",
     "specifications": {
       "Farm Area": "1,000 sqm",
       "Production": "10000 Plant/month",

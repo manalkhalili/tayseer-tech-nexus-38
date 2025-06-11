@@ -11,7 +11,6 @@
       "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     ],
     "category": "solar",
-    "price": "$8,500",
     "specifications": {
       "Power Output": "5KW",
       "Panel Type": "Monocrystalline",
@@ -36,7 +35,6 @@
       "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     ],
     "category": "biogas",
-    "price": "$45,000",
     "specifications": {
       "Power Output": "100KW",
       "Fuel Type": "Biogas",
@@ -61,7 +59,6 @@
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     ],
     "category": "envirotech",
-    "price": "$25,000",
     "specifications": {
       "Capacity": "1000L/hour",
       "Filtration": "Multi-stage",
@@ -86,7 +83,6 @@
       "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     ],
     "category": "construction",
-    "price": "$15,000",
     "specifications": {
       "Coverage": "100 sqm",
       "Material": "Recycled composite",
@@ -111,7 +107,6 @@
       "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     ],
     "category": "solar",
-    "price": "$2,500",
     "specifications": {
       "Capacity": "300L",
       "Type": "Evacuated tube",
@@ -136,7 +131,6 @@
       "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     ],
     "category": "biogas",
-    "price": "$3,200",
     "specifications": {
       "Gas Production": "2-3 cubic meters/day",
       "Waste Input": "5-8 kg/day",
