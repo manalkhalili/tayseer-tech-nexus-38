@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div>
             <img 
-              src="/lovable-uploads/5ff76fb1-f0b4-4556-9464-820a5130a055.png" 
+              src="/assets/5ff76fb1-f0b4-4556-9464-820a5130a055.png"
               alt="Al-Tayseer Logo" 
               className="h-16 mb-4" 
             />
