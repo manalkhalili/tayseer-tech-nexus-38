@@ -17,17 +17,17 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({
 }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-      <div className="p-6 flex flex-col md:flex-row gap-6 items-start">
+      <div className="p-4 md:p-6 flex flex-col md:flex-row gap-4 md:gap-6 items-start">
         <div className="flex-1 order-2 md:order-1">
-          <h3 className="text-tayseer-black text-xl font-bold mb-4">
+          <h3 className="text-tayseer-black text-lg md:text-xl font-bold mb-3 md:mb-4">
             {title}
           </h3>
-          <p className="text-gray-600 mb-5 leading-relaxed">
+          <p className="text-gray-600 mb-4 md:mb-5 leading-relaxed text-sm md:text-base">
             {description}
           </p>
           <Link
             to={link}
-            className="bg-tayseer-orange text-white py-2 px-4 rounded-md inline-flex items-center hover:bg-orange-600 transition-colors"
+            className="bg-tayseer-orange text-white py-2 px-4 rounded-md inline-flex items-center hover:bg-orange-600 transition-colors text-sm md:text-base"
           >
             Explore
             <svg
@@ -46,7 +46,7 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({
             </svg>
           </Link>
         </div>
-        <div className="w-full md:w-32 h-48 md:h-32 flex-shrink-0 order-1 md:order-2">
+        <div className="w-full md:w-32 h-32 md:h-32 flex-shrink-0 order-1 md:order-2">
           <img
             src={image}
             alt={title}
