@@ -18,7 +18,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   return (
     <div className="bg-white rounded-lg shadow-lg p-3 sm:p-4 md:p-6 transition-all hover:shadow-xl hover:-translate-y-1 border-t-4 border-tayseer-orange h-full flex flex-col">
       <div className="text-tayseer-orange mb-2 sm:mb-3 flex justify-center">
-        <div className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-10 lg:h-10 flex items-center justify-center">
+        <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 flex items-center justify-center">
           {icon}
         </div>
       </div>

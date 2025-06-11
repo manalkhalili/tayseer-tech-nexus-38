@@ -46,7 +46,7 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({
             </svg>
           </Link>
         </div>
-        <div className="w-16 h-16 sm:w-16 sm:h-16 md:w-20 md:h-20 flex-shrink-0 order-1 sm:order-2">
+        <div className="w-20 h-20 sm:w-20 sm:h-20 md:w-24 md:h-24 flex-shrink-0 order-1 sm:order-2">
           <img
             src={image}
             alt={title}
