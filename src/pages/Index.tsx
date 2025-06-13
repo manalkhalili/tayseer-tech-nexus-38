@@ -107,7 +107,7 @@ const Index = () => {
               </Link>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="https://images.unsplash.com/photo-1508515803898-7bb2d7703093?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80" alt="Sustainable Solutions" className="w-full h-auto" />
+              <img src="public/assets/home-image.jpg" alt="Sustainable Solutions" className="w-full h-auto" />
             </div>
           </div>
         </div>

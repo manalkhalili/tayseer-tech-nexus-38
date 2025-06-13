@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -10,51 +9,55 @@ interface DepartmentCardProps {
 }
 
 const DepartmentCard: React.FC<DepartmentCardProps> = ({
-  title,
-  description,
-  image,
-  link,
-}) => {
+                                                         title,
+                                                         description,
+                                                         image,
+                                                         link,
+                                                       }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-      <div className="p-3 sm:p-4 md:p-4 flex flex-col sm:flex-row gap-3 items-start">
-        <div className="flex-1 order-2 sm:order-1">
-          <h3 className="text-tayseer-black text-sm sm:text-base md:text-lg font-bold mb-2">
-            {title}
-          </h3>
-          <p className="text-gray-600 mb-3 leading-relaxed text-xs sm:text-sm">
-            {description}
-          </p>
+      <div className="relative bg-white rounded-2xl shadow-md hover:shadow-xl transition-all overflow-hidden group">
+        {/* Background Icon or Image */}
+        <div className="absolute top-0 right-0 w-24 h-24 opacity-10 bg-tayseer-orange rounded-bl-full z-0"></div>
+
+        {/* Image (Avatar Style) */}
+        <div className="p-6 pb-0 flex items-center gap-4 relative z-10">
+          <div className="w-16 h-16 rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+            <img
+                src={image}
+                alt={title}
+                className="w-full h-full object-cover"
+            />
+          </div>
+          <div>
+            <h3 className="text-tayseer-black text-lg font-bold">{title}</h3>
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="px-6 py-4 pt-2 relative z-10">
+          <p className="text-gray-600 text-sm mb-4 leading-relaxed">{description}</p>
           <Link
-            to={link}
-            className="bg-tayseer-orange text-white py-1.5 px-3 rounded-md inline-flex items-center hover:bg-orange-600 transition-colors text-xs sm:text-sm"
+              to={link}
+              className="inline-flex items-center text-sm text-tayseer-orange font-medium hover:underline"
           >
             Explore
             <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-3 h-3 ml-1"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-4 h-4 ml-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.5}
             >
               <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
               />
             </svg>
           </Link>
         </div>
-        <div className="w-20 h-20 sm:w-20 sm:h-20 md:w-24 md:h-24 flex-shrink-0 order-1 sm:order-2">
-          <img
-            src={image}
-            alt={title}
-            className="w-full h-full object-cover rounded-md"
-          />
-        </div>
       </div>
-    </div>
   );
 };
 

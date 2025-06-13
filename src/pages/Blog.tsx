@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -67,111 +66,77 @@ const Blog = () => {
   ];
 
   return (
-    <Layout>
-      <div className="pt-24 md:pt-32 pb-16">
-        <div className="container-max">
-          <SectionTitle 
-            title="Our Blog" 
-            subtitle="Insights, updates and knowledge from our experts" 
-            centered={true} 
-          />
-
-          {/* Featured Post */}
-          <div className="mb-12">
-            <Card className="flex flex-col md:flex-row overflow-hidden hover:shadow-lg transition-all">
-              <Link to={`/blog/${blogPosts[0].id}`} className="md:w-1/2">
-                <img 
-                  src={blogPosts[0].image} 
-                  alt={blogPosts[0].title} 
-                  className="w-full h-64 md:h-full object-cover hover:scale-105 transition-transform"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = `https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`;
-                  }}
-                />
-              </Link>
-              <div className="md:w-1/2 flex flex-col justify-between">
-                <CardHeader>
-                  <div className="flex items-center mb-2">
-                    <span className="text-xs bg-tayseer-orange/20 text-tayseer-orange rounded px-2 py-1">
-                      {blogPosts[0].category}
-                    </span>
-                    <span className="mx-2 text-gray-400">•</span>
-                    <span className="text-sm text-gray-600">{blogPosts[0].date}</span>
-                  </div>
-                  <Link to={`/blog/${blogPosts[0].id}`}>
-                    <CardTitle className="text-2xl md:text-3xl hover:text-tayseer-orange transition-colors">
-                      {blogPosts[0].title}
-                    </CardTitle>
-                  </Link>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600">{blogPosts[0].excerpt}</p>
-                </CardContent>
-                <CardFooter className="flex justify-between items-center border-t pt-4">
-                  <Link 
-                    to={`/blog/${blogPosts[0].id}`}
-                    className="text-tayseer-orange hover:underline"
-                  >
-                    Read More →
-                  </Link>
-                </CardFooter>
-              </div>
-            </Card>
+      <Layout>
+        {/* Hero Section */}
+        <section className="relative h-[32rem] flex items-center justify-center">
+          <div className="absolute inset-0 bg-tayseer-black">
+            <div
+                className="absolute inset-0 bg-cover bg-center opacity-40"
+                style={{ backgroundImage: "url('/assets/blog-hero.jpg')" }}
+            ></div>
           </div>
+          <div className="container-max relative z-10 text-center px-4">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Our Blog</h1>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Insights, updates and knowledge from our experts
+            </p>
+          </div>
+        </section>
 
-          {/* Blog Posts Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in">
-            {blogPosts.slice(1).map((post) => (
-              <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-all flex flex-col">
-                <Link to={`/blog/${post.id}`}>
-                  <img 
-                    src={post.image} 
-                    alt={post.title} 
-                    className="w-full h-56 object-cover hover:scale-105 transition-transform"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = `https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`;
-                    }}
-                  />
-                </Link>
-                <CardHeader>
-                  <div className="flex items-center mb-2">
+        <div className="mt-24 md:mt-32 pb-16">
+          <div className="container-max">
+            {/* Blog Posts Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in">
+              {blogPosts.map((post) => (
+                  <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-all flex flex-col">
+                    <Link to={`/blog/${post.id}`}>
+                      <img
+                          src={post.image}
+                          alt={post.title}
+                          className="w-full h-56 object-cover hover:scale-105 transition-transform"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement;
+                            target.src = `https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`;
+                          }}
+                      />
+                    </Link>
+                    <CardHeader>
+                      <div className="flex items-center mb-2">
                     <span className="text-xs bg-tayseer-orange/20 text-tayseer-orange rounded px-2 py-1">
                       {post.category}
                     </span>
-                    <span className="mx-2 text-gray-400">•</span>
-                    <span className="text-xs text-gray-600">{post.date}</span>
-                  </div>
-                  <Link to={`/blog/${post.id}`}>
-                    <CardTitle className="text-xl line-clamp-2 hover:text-tayseer-orange transition-colors">
-                      {post.title}
-                    </CardTitle>
-                  </Link>
-                </CardHeader>
-                <CardContent className="flex-grow">
-                  <p className="text-gray-600 line-clamp-3">{post.excerpt}</p>
-                </CardContent>
-                <CardFooter className="flex justify-between items-center border-t pt-4">
-                  <Link 
-                    to={`/blog/${post.id}`}
-                    className="text-tayseer-orange hover:underline"
-                  >
-                    Read More →
-                  </Link>
-                </CardFooter>
-              </Card>
-            ))}
-          </div>
+                        <span className="mx-2 text-gray-400">•</span>
+                        <span className="text-xs text-gray-600">{post.date}</span>
+                      </div>
+                      <Link to={`/blog/${post.id}`}>
+                        <CardTitle className="text-xl line-clamp-2 hover:text-tayseer-orange transition-colors">
+                          {post.title}
+                        </CardTitle>
+                      </Link>
+                    </CardHeader>
+                    <CardContent className="flex-grow">
+                      <p className="text-gray-600 line-clamp-3">{post.excerpt}</p>
+                    </CardContent>
+                    <CardFooter className="flex justify-between items-center border-t pt-4">
+                      <Link
+                          to={`/blog/${post.id}`}
+                          className="text-tayseer-orange hover:underline"
+                      >
+                        Read More →
+                      </Link>
+                    </CardFooter>
+                  </Card>
+              ))}
+            </div>
 
-          <div className="mt-12 text-center">
-            <Link to="#" className="btn-primary inline-block">
-              Load More Articles
-            </Link>
+            <div className="mt-12 text-center">
+              <Link to="#" className="btn-primary inline-block">
+                Load More Articles
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
-    </Layout>
+      </Layout>
   );
 };
 

@@ -197,7 +197,7 @@ const Services = () => {
   return (
       <Layout>
         {/* Hero Section */}
-        <section className="relative h-96 flex items-center justify-center">
+          <section className="relative h-[550px] flex items-center justify-center">
           <div className="absolute inset-0 bg-tayseer-black">
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-40"
