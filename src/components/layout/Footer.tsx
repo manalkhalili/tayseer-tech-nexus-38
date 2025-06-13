@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
 
   const contactInfo = {
     address: 'Palestine, Tulkarm, New Courts Quarter, Al-Tayseer 1 Building',
-    phone: '+972 59-202-6163',
+    phone: '+970 (595) 563-555',
     email: 'info@altayseer.com',
   };
 
