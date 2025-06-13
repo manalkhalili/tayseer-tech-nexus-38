@@ -68,7 +68,7 @@
 
   {
     "id": 3,
-    "title": "Educational Environmental Classroom - Friends School",
+    "title": "Educational Environmental Classroom",
     "description": "An educational environmental unit integrating biogas, hydroponics, and organic farming systems in Friends School, Ramallah.",
     "image": "/assets/475471889_934275412154700_1190930456628154829_n.jpg",
     "images": [
@@ -94,12 +94,12 @@
       "Supports environmental awareness",
       "Suitable for student learning and workshops"
     ],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pn8aarrPzCY",
     "detailedDescription": "This eco-friendly educational classroom at Friends School in Ramallah combines multiple green technologies into a learning platform. It includes a biogas system for processing organic waste and producing cooking gas, a hydroponic NFT setup for efficient water-based agriculture, traditional soil farming plots, a composting unit to manage biodegradable waste, and a seed nursery. The project offers students a practical understanding of sustainability, clean energy, and food security."
   },
   {
     "id": 4,
-    "title": "Educational Environmental Classroom - Al-Mustaqbal School",
+    "title": "Educational Environmental Classroom",
     "description": "An educational environmental unit integrating biogas, hydroponics, and organic farming systems in Al-Mustaqbal School, Ramallah.",
     "image": "/assets/4340.jpg",
     "images": [
@@ -125,66 +125,79 @@
       "Supports environmental awareness",
       "Suitable for student learning and workshops"
     ],
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pn8aarrPzCY",
     "detailedDescription": "This eco-friendly educational classroom at Al-Mustaqbal School in Ramallah combines multiple green technologies into a learning platform. It includes a biogas system for processing organic waste and producing cooking gas, a hydroponic NFT setup for efficient water-based agriculture, traditional soil farming plots, a composting unit to manage biodegradable waste, and a seed nursery. The project offers students a practical understanding of sustainability, clean energy, and food security."
   },
   {
     "id": 5,
-    "title": "Residential Solar Installation",
-    "description": "A comprehensive solar solution for a 20-unit residential complex with battery storage.",
-    "image": "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
+    "title": "Integrated Hydroponic Farming Project",
+    "description": "A 130m² hydroponic farming system accommodating 5,000 seedlings, powered by a biogas unit.",
+    "image": "/assets/20241009_103848.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80"
+      "/assets/20241009_103901.jpg",
+      "/assets/20241009_103911.jpg",
+      "/assets/20241009_103934.jpg",
+      "/assets/20241009_103940.jpg",
+      "/assets/20241009_104243.jpg",
+      "/assets/20241009_104636.jpg",
+      "/assets/20241009_104644.jpg",
+      "/assets/20241009_104652.jpg",
+      "/assets/20241009_103925.jpg"
     ],
-    "department": "solar",
-    "client": "Greenliving Apartments",
-    "completionDate": "October 2023",
-    "location": "Arizona, USA",
+    "department": "envirotech",
+    "client": "Falamia Cooperative Association",
+    "completionDate": "Nov 2024",
+    "location": "Falamia, Palestine",
     "specifications": {
-      "Total Units": "20 apartments",
-      "Panel Capacity": "250kW",
-      "Battery Storage": "500kWh",
-      "Grid Independence": "80%"
+      "Farming Area": "130 m²",
+      "Seedling Capacity": "5,000 plants",
+      "Gas Production": "4 hours of cooking gas daily",
+      "Fertilizer Output": "6 liters of organic fertilizer per day"
     },
     "features": [
-      "Rooftop solar arrays",
-      "Battery storage system",
-      "Smart energy management",
-      "Individual unit monitoring"
+      "NFT hydroponic system",
+      "Integrated biogas unit",
+      "Daily organic fertilizer production",
+      "High water efficiency"
     ],
-    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "detailedDescription": "This residential solar project provides clean energy to 20 apartment units with advanced battery storage for energy independence. The system includes smart energy management that optimizes power usage and storage, reducing electricity costs for residents by up to 80%."
+    "youtubeUrl": "https://www.youtube.com/watch?v=ks7MpxEJFs4",
+    "detailedDescription": "This innovative hydroponic farming project in the town of Falamia covers 130 square meters and accommodates 5,000 seedlings using advanced NFT systems. The project is supported by an integrated biogas unit that processes organic waste to generate four hours of clean cooking gas daily and six liters of organic fertilizer. It aims to enhance food security and promote sustainable agriculture through smart, eco-friendly solutions."
   },
   {
     "id": 6,
-    "title": "Eco-Tourism Resort",
-    "description": "A self-sustainable resort with integrated renewable energy systems and green building practices.",
-    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
+    "title": "Hydroponic and Fodder Production Systems Across the West Bank",
+    "description": "A multi-site project funded by the Red Cross, implementing hydroponic NFT and fodder units across 10 locations in the West Bank.",
+    "image": "/assets/IMG-20250612-WA0063.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80"
+      "/assets/IMG-20250612-WA0055.jpg",
+      "/assets/IMG-20250612-WA0056.jpg",
+      "/assets/IMG-20250612-WA0057.jpg",
+      "/assets/IMG-20250612-WA0058.jpg",
+      "/assets/IMG-20250612-WA0059.jpg",
+      "/assets/IMG-20250612-WA0060.jpg",
+      "/assets/IMG-20250612-WA0061.jpg",
+      "/assets/IMG-20250612-WA0062.jpg",
+      "/assets/IMG-20250612-WA0054.jpg"
     ],
-    "department": "construction",
-    "client": "EcoVacations Ltd.",
-    "completionDate": "December 2023",
-    "location": "Costa Rica",
+    "department": "envirotech",
+    "client": "International Committee of the Red Cross (ICRC)",
+    "completionDate": "March 2025",
+    "location": "West Bank, Palestine",
     "specifications": {
-      "Resort Capacity": "100 guests",
-      "Building Area": "8,000 sqm",
-      "Energy Independence": "100%",
-      "Water Recycling": "90%"
+      "Project Scope": "10 sites",
+      "Hydroponic System": "NFT (Nutrient Film Technique)",
+      "Fodder Production": "Daily green fodder for livestock",
+      "Water Savings": "Over 80% compared to traditional agriculture"
     },
     "features": [
-      "Solar and wind power",
-      "Natural building materials",
-      "Water recycling system",
-      "Organic waste processing"
+      "Hydroponic NFT systems",
+      "Automated fodder units",
+      "Customized for local environmental conditions",
+      "Sustainable and water-efficient farming"
     ],
-    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "detailedDescription": "This eco-tourism resort demonstrates how luxury hospitality can be completely sustainable. The resort operates entirely on renewable energy and features innovative water recycling systems, organic waste processing, and buildings constructed with local, sustainable materials that blend harmoniously with the natural environment."},
+    "youtubeUrl": "https://www.youtube.com/watch?v=ISNMXVTBZac",
+    "detailedDescription": "This large-scale agricultural development project, funded by the International Committee of the Red Cross (ICRC), introduced hydroponic NFT systems and automated fodder units in ten different communities across the West Bank. The initiative aims to improve food security, support small-scale farmers, and promote sustainable agriculture. Each system is designed to operate with high water efficiency and minimal environmental impact, producing fresh vegetables and nutritious green fodder year-round."
+  },
   {
     "id": 7,
     "title": "NFT & Dutch Bucket Hydroponic System",
@@ -216,5 +229,182 @@
     ],
     "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "detailedDescription": "This innovative urban hydroponic farm maximizes food production in minimal space. Using vertical growing techniques and precision agriculture technology, the facility produces fresh vegetables year-round with 95% less water than traditional farming methods. The controlled environment ensures optimal growing conditions and eliminates the need for pesticides."
+  },
+  {
+    "id": 8,
+    "title": "Greenhouse & Hydroponic Empowerment Project for Women",
+    "description": "A project empowering women through greenhouse and hydroponic systems across four governorates in the West Bank.",
+    "image": "/assets/IMG-20250612-WA0066.jpg",
+    "images": [
+      "/assets/IMG-20250612-WA0064.jpg",
+      "/assets/IMG-20250612-WA0065.jpg",
+      "/assets/IMG-20250612-WA0066.jpg",
+      "/assets/IMG-20250612-WA0067.jpg",
+      "/assets/IMG-20250612-WA0068.jpg",
+      "/assets/IMG-20250612-WA0069.jpg",
+      "/assets/IMG-20250612-WA0070.jpg",
+      "/assets/IMG-20250612-WA0071.jpg",
+      "/assets/IMG-20250612-WA0072.jpg",
+      "/assets/IMG-20250612-WA0073.jpg",
+      "/assets/IMG-20250612-WA0074.jpg"
+    ],
+    "department": "envirotech",
+    "client": "Women Water Network",
+    "completionDate": "October 2024",
+    "location": "West Bank, Palestine",
+    "specifications": {
+      "Covered Areas": "4 governorates",
+      "Greenhouses": "Multiple modular units",
+      "Hydroponic Systems": "NFT and vertical farming",
+      "Beneficiaries": "Dozens of women-led households"
+    },
+    "features": [
+      "Climate-controlled greenhouses",
+      "NFT hydroponic growing systems",
+      "Hands-on agricultural training for women",
+      "Sustainable income generation"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=c1g0S5vwuz4",
+    "detailedDescription": "This October 2024 initiative was launched to support women in agriculture across four key governorates in the West Bank. The project installed climate-controlled greenhouses and advanced hydroponic NFT systems to enable sustainable crop production. In addition to technology deployment, the program provided technical training and business development guidance to help women manage and grow their own agricultural enterprises, fostering independence and food security in their communities."
+  },
+  {
+    "id": 9,
+    "title": "Al-Tayseer 1 Building",
+    "description": "A modern multi-purpose building covering 2500 square meters, designed to serve commercial and residential needs.",
+    "image": "/assets/1111111111111111111.png",
+    "images": [
+      "/assets/1111111111111111111.png"
+    ],
+    "department": "construction",
+    "client": "Own Development Project",
+    "completionDate": "June 2018",
+    "location": "Tulkarm, Palestine",
+    "specifications": {
+      "Total Area": "2500 sqm",
+      "Floors": "Multi-storey (customizable)",
+      "Purpose": "Residential & Commercial",
+      "Construction Status": "Completed"
+    },
+    "features": [
+      "Reinforced concrete structure",
+      "Modern architectural design",
+      "Energy-efficient planning",
+      "Space optimized for retail and living"
+    ],
+    "youtubeUrl": "",
+    "detailedDescription": "Al-Tayseer 1 is a landmark building project currently under development in the West Bank. Spanning 2500 sqm, the building integrates modern design with practical utility to support both commercial businesses and residential tenants. The structure is engineered for durability and sustainability, incorporating energy-efficient systems and high-quality materials."
+  },
+  {
+    "id": 10,
+    "title": "Al-Tayseer 2 Building",
+    "description": "A new addition to the Al-Tayseer development series, this modern building spans 2500 square meters and is designed for mixed-use functionality.",
+    "image": "/assets/2222222222222222222.png",
+    "images": [
+      "/assets/2222222222222222222.png"
+    ],
+    "department": "construction",
+    "client": "Own Development Project",
+    "completionDate": "June 2019",
+    "location": "West Bank, Palestine",
+    "specifications": {
+      "Total Area": "2500 sqm",
+      "Floors": "Multi-level (custom usage)",
+      "Purpose": "Residential & Commercial",
+      "Construction Status": "Completed"
+    },
+    "features": [
+      "Contemporary architectural design",
+      "Strong structural engineering",
+      "Energy-efficient materials",
+      "Ideal for mixed residential and business use"
+    ],
+    "youtubeUrl": "",
+    "detailedDescription": "Al-Tayseer 2 continues the legacy of innovative construction with a 2500 sqm layout optimized for flexibility and modern living. Located in the West Bank, the project caters to both families and businesses, offering quality spaces built to high environmental and structural standards. The design focuses on functionality, comfort, and long-term value."
+  },
+  {
+    "id": 11,
+    "title": "Biogas Systems in Kafr Dan, Jenin",
+    "description": "An impactful biogas project implemented for 25 farmers in Kafr Dan, providing clean cooking gas and reducing carbon emissions.",
+    "image": "/assets/454444444.jpg",
+    "images": [
+      "/assets/454444444.jpg"
+    ],
+    "department": "biogas",
+    "client": "TIKA",
+    "completionDate": "2024",
+    "location": "Kafr Dan, Jenin, Palestine",
+    "specifications": {
+      "Total Systems Installed": "25",
+      "Daily Gas Output": "200 hours of cooking gas",
+      "CO₂ Emission Reduction": "130 tons/year",
+      "Organic Waste Recycled": "500 kg/day",
+      "Fertilizer Production": "400 liters/day"
+    },
+    "features": [
+      "Decentralized biogas units",
+      "Eco-friendly waste processing",
+      "Clean energy for 25 farms",
+      "Liquid organic fertilizer output",
+      "Significant GHG emissions reduction"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=NPSl9Bzb43Q",
+    "detailedDescription": "This sustainable biogas initiative, funded by TIKA, was implemented in Kafr Dan (Jenin) to support 25 local farmers. Each biogas unit processes organic farm waste to generate up to 200 hours of clean cooking gas daily and 400 liters of liquid organic fertilizer. The systems contribute to environmental preservation by recycling 500 kg of organic waste per day and reducing CO₂ emissions by 130 tons annually. The project improves rural energy access while promoting eco-friendly farming practices."
+  },
+  {
+    "id": 12,
+    "title": "100kW Solar Power Station – Beit Furik & Beit Dajan",
+    "description": "A 100kW solar power station installed to support local municipalities with sustainable, clean energy.",
+    "image": "/assets/kenjvodsivo.jpg",
+    "images": [
+      "/assets/486137657_1123239372937195_4727811930873644899_n.jpg",
+      "/assets/kenjvodsivo.jpg"
+    ],
+    "department": "solar",
+    "client": "Joint Services Council – Beit Furik & Beit Dajan",
+    "completionDate": "March 2025",
+    "location": "Beit Furik & Beit Dajan, Palestine",
+    "specifications": {
+      "Installed Capacity": "100kW",
+      "Energy Source": "Photovoltaic solar panels",
+      "Target Beneficiaries": "Municipal buildings and public services",
+      "Sustainability Contribution": "Supports energy independence and reduces emissions"
+    },
+    "features": [
+      "Grid-tied solar system",
+      "High-efficiency photovoltaic panels",
+      "Clean energy generation",
+      "Reduced operational energy costs",
+      "Environmentally responsible design"
+    ],
+    "youtubeUrl": "",
+    "detailedDescription": "As part of its mission to promote sustainable development, Al-Tayseer International for Construction has successfully completed the installation of a 100kW solar power station for the Joint Services Council of Beit Furik and Beit Dajan. This project aims to reduce reliance on conventional energy, lower operational costs, and contribute to a cleaner environment through renewable energy. The station powers municipal services, ensuring a reliable and eco-friendly energy source for the communities."
+  },
+  {
+    "id": 30,
+    "title": "Al-Tayseer Eco-Agri Tourism Resort",
+    "description": "An eco-tourism resort under construction in Ramallah, designed to promote sustainable, off-grid living through green building practices and integrated agriculture.",
+    "image": "/assets/eco agri.jpg",
+    "images": [
+      "/assets/eco agri.jpg"
+    ],
+    "department": "construction",
+    "client": "Own Development Project",
+    "completionDate": "Under Construction",
+    "location": "Ramallah, Palestine",
+    "specifications": {
+      "Project Type": "Eco-agricultural tourism resort",
+      "Sustainability Features": "Off-grid systems, renewable energy, water harvesting",
+      "Purpose": "Promoting sustainable tourism and environmental awareness",
+      "Design Approach": "Green architecture integrated with local landscape"
+    },
+    "features": [
+      "Off-grid energy solutions",
+      "Eco-friendly building materials",
+      "On-site organic farming",
+      "Agri-tourism infrastructure",
+      "Scenic and sustainable accommodation"
+    ],
+    "youtubeUrl": "",
+    "detailedDescription": "Al-Tayseer Eco-Agri Tourism Resort is a pioneering project that combines sustainable construction, tourism, and agriculture. Located in Ramallah, this under-construction resort will offer guests a unique off-grid living experience, complete with renewable energy systems, eco-friendly buildings, and organic farming. The project is a key step towards promoting environmental awareness, sustainable development, and rural tourism in Palestine."
   }
 ]

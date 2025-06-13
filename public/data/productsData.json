@@ -2,146 +2,767 @@
 [
   {
     "id": 1,
-    "title": "Solar Panel System 5KW",
-    "description": "High-efficiency monocrystalline solar panels with 25-year warranty.",
-    "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "title": "Environmental Educational Classroom",
+    "description": "A fully integrated environmental education system combining biogas, hydroponics, traditional farming, composting, and seedling incubation technologies.",
+    "image": "/assets/biogas1.png",
     "images": [
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      "/assets/biogas1.png"
     ],
-    "category": "solar",
+    "category": "envirotech",
     "specifications": {
-      "Power Output": "5KW",
-      "Panel Type": "Monocrystalline",
-      "Efficiency": "22%",
-      "Warranty": "25 years"
+      "Biogas System": "Generates clean cooking gas from organic waste",
+      "Hydroponics System": "NFT-based hydroponic setup for efficient soilless farming",
+      "Traditional Farming": "Outdoor soil farming area",
+      "Composting Unit": "Organic composter for waste recycling",
+      "Seedling Incubator": "Mini greenhouse nursery for seed starting",
+      "Educational Use": "Designed for student engagement and sustainability learning"
     },
     "features": [
-      "High efficiency solar cells",
-      "Weather resistant design",
-      "Easy installation",
-      "Smart monitoring system"
+      "Hands-on sustainability education",
+      "Zero-waste ecosystem model",
+      "Water-efficient farming",
+      "Clean energy integration",
+      "Compact and replicable setup",
+      "Supports STEM and environmental curricula"
     ]
   },
   {
     "id": 2,
-    "title": "Biogas Generator 100KW",
-    "description": "Industrial biogas generator for waste-to-energy conversion.",
-    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "title": "Small-Scale Biogas System",
+    "description": "Compact biogas system designed for small households or educational purposes, converting organic waste into clean energy and liquid fertilizer.",
+    "image": "/assets/biogas2.png",
     "images": [
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      "/assets/biogas2.png"
     ],
     "category": "biogas",
     "specifications": {
-      "Power Output": "100KW",
-      "Fuel Type": "Biogas",
-      "Efficiency": "85%",
-      "Operating Hours": "8000+ hours/year"
+      "Daily Gas Output": "2 hours of cooking gas",
+      "Fertilizer Production": "6 liters of liquid organic fertilizer per day",
+      "Waste Input Capacity": "2-3 kg organic waste per day",
+      "System Size": "Small scale – suitable for homes or schools",
+      "Energy Source": "Organic kitchen or garden waste"
     },
     "features": [
-      "Automatic operation",
-      "Low maintenance",
-      "Remote monitoring",
-      "Emission compliant"
+      "Clean and renewable energy generation",
+      "Reduces household organic waste",
+      "Produces valuable fertilizer for gardening",
+      "Safe and odor-free design",
+      "Easy to install and maintain",
+      "Environmentally friendly solution"
     ]
   },
   {
     "id": 3,
-    "title": "Water Purification System",
-    "description": "Advanced water treatment system for industrial applications.",
-    "image": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "title": "Medium-Scale Biogas System",
+    "description": "Efficient biogas system designed for medium-sized households or small farms, providing reliable cooking gas and organic fertilizer from daily organic waste.",
+    "image": "/assets/biogas4.png",
     "images": [
-      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      "/assets/biogas4.png"
     ],
-    "category": "envirotech",
+    "category": "biogas",
     "specifications": {
-      "Capacity": "1000L/hour",
-      "Filtration": "Multi-stage",
-      "Purity": "99.9%",
-      "Power": "2KW"
+      "Daily Gas Output": "4 hours of cooking gas",
+      "Fertilizer Production": "10 liters of liquid organic fertilizer per day",
+      "Waste Input Capacity": "5-8 kg organic waste per day",
+      "System Size": "Medium scale – suitable for families or small farms",
+      "Energy Source": "Kitchen and garden organic waste"
     },
     "features": [
-      "Multi-stage filtration",
-      "Automatic backwash",
-      "Quality monitoring",
-      "Energy efficient"
+      "Clean, renewable energy for cooking",
+      "Reduces organic waste disposal",
+      "Generates nutrient-rich organic fertilizer",
+      "Low odor, safe operation",
+      "Durable and easy to maintain",
+      "Supports sustainable household energy"
     ]
   },
   {
     "id": 4,
-    "title": "Green Building Materials Kit",
-    "description": "Sustainable construction materials for eco-friendly buildings.",
-    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "title": "Large-Scale Biogas System",
+    "description": "Advanced large-scale biogas system suitable for farms or community use, producing substantial cooking gas and organic fertilizer from daily organic waste.",
+    "image": "/assets/biogas6.png",
     "images": [
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      "/assets/biogas6.png"
     ],
-    "category": "construction",
+    "category": "biogas",
     "specifications": {
-      "Coverage": "100 sqm",
-      "Material": "Recycled composite",
-      "Insulation": "R-30",
-      "Durability": "50+ years"
+      "Daily Gas Output": "6 hours of cooking gas",
+      "Fertilizer Production": "20 liters of liquid organic fertilizer per day",
+      "Waste Input Capacity": "10-15 kg organic waste per day",
+      "System Size": "Large scale – ideal for farms, schools, or communities",
+      "Energy Source": "Kitchen, agricultural and garden organic waste"
     },
     "features": [
-      "Recycled materials",
-      "High insulation",
-      "Fire resistant",
-      "Easy installation"
+      "High-capacity renewable cooking gas production",
+      "Significant reduction in organic waste",
+      "Produces nutrient-rich organic fertilizer",
+      "Safe and eco-friendly operation",
+      "Robust design for heavy-duty use",
+      "Supports sustainable energy and waste management at scale"
     ]
   },
   {
     "id": 5,
-    "title": "Solar Water Heater",
-    "description": "Efficient solar water heating system for residential use.",
-    "image": "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "title": "Farmers & Dairy System – HomeBiogas",
+    "description": "Specialized biogas system designed for farmers and dairy operations. Converts animal manure into clean cooking gas and organic fertilizer.",
+    "image": "/assets/biogas3.png",
     "images": [
-      "https://images.unsplash.com/photo-1611364332926-318c93def5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      "/assets/biogas3.png"
     ],
-    "category": "solar",
+    "category": "biogas",
     "specifications": {
-      "Capacity": "300L",
-      "Type": "Evacuated tube",
-      "Efficiency": "75%",
-      "Warranty": "10 years"
+      "Daily Gas Output": "Up to 6 hours of cooking gas",
+      "Fertilizer Production": "Up to 40 liters of liquid organic fertilizer per day",
+      "Waste Input Capacity": "20-30 kg of cow or animal manure per day",
+      "System Type": "Tailored for rural and agricultural households",
+      "Recommended Use": "Farms with livestock or small dairy operations"
     },
     "features": [
-      "All weather operation",
-      "Automatic temperature control",
-      "Corrosion resistant",
-      "Low maintenance"
+      "Runs on animal manure (cow, goat, etc.)",
+      "Produces clean, renewable energy for cooking",
+      "Generates high-quality organic fertilizer daily",
+      "Reduces methane emissions and environmental impact",
+      "Easy to install and maintain",
+      "Ideal for rural sustainability and circular agriculture"
     ]
   },
   {
     "id": 6,
-    "title": "Smart Home Biogas Unit",
-    "description": "Compact biogas system for household waste management.",
-    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "title": "Bio-Toilet System",
+    "description": "An eco-friendly sanitation solution that transforms human waste into clean cooking gas and organic fertilizer, promoting sustainability and hygiene.",
+    "image": "/assets/biogas5.png",
     "images": [
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      "/assets/biogas5.png"
     ],
     "category": "biogas",
     "specifications": {
-      "Gas Production": "2-3 cubic meters/day",
-      "Waste Input": "5-8 kg/day",
-      "Size": "2m x 1m x 1.5m",
-      "Material": "Fiberglass"
+      "Gas Output": "2-3 hours of clean cooking gas per day",
+      "Fertilizer Output": "Up to 6 liters of liquid organic fertilizer daily",
+      "Input Type": "Human waste (via integrated toilet system)",
+      "System Type": "Closed-loop bio-digestion",
+      "Recommended Use": "Public parks, schools, remote communities"
     },
     "features": [
-      "Compact design",
-      "Easy operation",
-      "Odor free",
-      "Cooking gas production"
+      "Safe and hygienic waste treatment",
+      "Generates renewable cooking fuel",
+      "Reduces environmental pollution",
+      "Improves sanitation infrastructure",
+      "Low maintenance and water-efficient",
+      "Promotes circular eco-toileting solutions"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "HomeBiogas Water Heater",
+    "description": "A compact, energy-efficient water heater that runs on biogas, providing a sustainable solution for on-demand hot water.",
+    "image": "/assets/biogas9.png",
+    "images": [
+      "/assets/biogas9.png"
+    ],
+    "category": "biogas",
+    "specifications": {
+      "Energy Source": "Biogas (methane)",
+      "Heating Capacity": "Up to 12 liters per minute",
+      "Water Pressure Requirement": "0.02–0.8 MPa",
+      "Installation": "Wall-mounted, indoor/outdoor",
+      "Compatibility": "Connects directly to HomeBiogas systems"
+    },
+    "features": [
+      "Instant hot water using clean biogas",
+      "No electricity required",
+      "Saves energy and reduces emissions",
+      "Safe and easy to install",
+      "Corrosion-resistant materials",
+      "Ideal for eco-friendly households and off-grid living"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "DEYE Battery System",
+    "description": "Modular and intelligent battery system designed for solar energy storage with remote control, smart management, and safety features.",
+    "image": "/assets/13.png",
+    "images": [
+      "/assets/13.png"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Battery Type": "Lithium-ion (LiFePO4)",
+      "Modularity": "Expandable system design",
+      "Voltage Range": "48V (typical per module)",
+      "Remote Control": "Yes, via smart interface",
+      "Safety": "Integrated protection system",
+      "Management": "Smart energy management system"
+    },
+    "features": [
+      "Remote control capability",
+      "Smart management for energy optimization",
+      "Safe and reliable battery chemistry",
+      "Expandable and scalable design",
+      "Ideal for solar energy storage"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Deye Solar Inverter",
+    "description": "High-performance hybrid inverter from Deye, ideal for solar energy systems with a smart LCD interface and multiple energy input/output options.",
+    "image": "/assets/14.png",
+    "images": [
+      "/assets/14.png"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Type": "Hybrid Inverter",
+      "Input Voltage": "DC 48V (typical)",
+      "Output Voltage": "AC 230V (single phase) / 400V (three phase)",
+      "Display": "Smart LCD interface",
+      "Communication": "RS485, CAN, WiFi (optional)",
+      "Protection": "Overload, short circuit, over/under voltage",
+      "Application": "Residential & Commercial solar systems"
+    },
+    "features": [
+      "Smart touch LCD display",
+      "Hybrid operation (grid + battery + PV)",
+      "High efficiency power conversion",
+      "Multiple communication protocols",
+      "Safety-certified and reliable design"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Growatt Hybrid Inverter",
+    "description": "Reliable and efficient hybrid inverter from Growatt, ideal for residential solar systems with intelligent energy management and high conversion efficiency.",
+    "image": "/assets/15.png",
+    "images": [
+      "/assets/15.png"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Type": "Hybrid Inverter",
+      "Input Voltage": "DC 48V",
+      "Output Voltage": "AC 230V (single phase)",
+      "Display": "LCD display with button interface",
+      "Communication": "RS485, USB, WiFi (optional), BMS",
+      "Protection": "Overload, short circuit, reverse polarity, over/under voltage",
+      "Application": "Residential solar power systems"
+    },
+    "features": [
+      "Pure sine wave output",
+      "Built-in MPPT solar charge controller",
+      "Supports battery and grid input",
+      "WiFi monitoring available",
+      "Automatic switch between solar and grid power"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Chisage Hybrid Solar Inverter",
+    "description": "Versatile and robust hybrid inverter by Chisage, designed for both on-grid and off-grid solar systems with intelligent battery management and smart connectivity.",
+    "image": "/assets/16.png",
+    "images": [
+      "/assets/16.png"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Type": "Hybrid Inverter",
+      "Input Voltage": "DC 48V",
+      "Output Voltage": "AC 230V / 400V (configurable)",
+      "Display": "Smart LCD screen with keypad",
+      "Communication": "RS232, RS485, CAN, WiFi (optional)",
+      "Protection": "Overload, surge, short circuit, reverse polarity",
+      "Application": "Home, commercial & backup solar systems"
+    },
+    "features": [
+      "Integrated MPPT solar charge controller",
+      "High conversion efficiency up to 98%",
+      "Supports PV, battery, and utility power",
+      "Automatic transfer between power sources",
+      "Real-time monitoring via mobile app or PC"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Grease Trap",
+    "description": "High-capacity grease and oil separator designed for efficient removal of fats, oils, and grease (FOG) in commercial kitchen wastewater systems.",
+    "image": "/assets/17.png",
+    "images": [
+      "/assets/17.png",
+      "/assets/18.png"
+    ],
+    "category": "wastewater",
+    "specifications": {
+      "Type": "Grease and Oil Separator",
+      "Material": "High-density polyethylene (HDPE)",
+      "Capacity": "Customizable (typical volume based on dimensions)",
+      "Dimensions": {
+        "Diameter": "Ø631 mm",
+        "Width": "1205 mm",
+        "Height": "1129 mm",
+        "Inlet Height": "800 mm",
+        "Outlet Height": "830 mm"
+      },
+      "Inlet/Outlet": "PVC or PE pipe connectors",
+      "Application": "Commercial kitchens, restaurants, food processing facilities"
+    },
+    "features": [
+      "Durable, corrosion-resistant body",
+      "Efficient separation of grease and solids",
+      "Easy to install and maintain",
+      "Environmentally friendly design",
+      "Prevents clogging in drainage systems"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Hydroponic Growing Tower",
+    "description": "Vertical hydroponic growing tower system designed to grow 32 to 40 plants in less than one square meter. Easy to operate and suitable for a wide range of edible and ornamental plants.",
+    "image": "/assets/19.png",
+    "images": [
+      "/assets/19.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Vertical Hydroponic System",
+      "Capacity": "32–40 plants",
+      "Footprint": "Less than 1 m²",
+      "Material": "Food-grade plastic",
+      "Watering System": "Drip irrigation or nutrient film technique (NFT)",
+      "Application": "Home gardens, rooftops, balconies, greenhouses"
+    },
+    "features": [
+      "Space-saving vertical design",
+      "Soil-free hydroponic growing",
+      "Supports herbs, leafy greens, and vegetables",
+      "Can be used indoors or outdoors",
+      "Eco-friendly and water-efficient system"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Educational & Home Hydroponic System",
+    "description": "A complete hydroponic system kit designed for home use and educational purposes. Ideal for growing fresh vegetables with minimal space and water usage.",
+    "image": "/assets/20.png",
+    "images": [
+      "/assets/20.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "NFT Hydroponic System",
+      "Capacity": "24 plants",
+      "Kit Includes": [
+        "Water pump and pipes",
+        "Nutrient solution",
+        "pH and EC measurement tools",
+        "Rockwool and net pots",
+        "Instruction manual"
+      ],
+      "Material": "Food-grade PVC & plastic components",
+      "Application": "Home gardens, classrooms, hobby kits"
+    },
+    "features": [
+      "Compact and educational design",
+      "Includes full growing and measurement tools",
+      "Ideal for leafy greens and herbs",
+      "Low maintenance and eco-friendly",
+      "Supports hands-on learning and sustainability"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Hydroponics Hanging Garden - Square System",
+    "description": "Wall-mounted or stand-supported hydroponic garden system, available in two sizes, ideal for growing fresh vegetables and herbs in compact spaces.",
+    "image": "/assets/21.png",
+    "images": [
+      "/assets/21.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Hanging Hydroponic System",
+      "Capacity Options": "16 or 28 plants",
+      "Mounting": "Wall-mount or freestanding with metal frame",
+      "Lighting": "Optional LED grow light integration",
+      "Material": "PVC planting channels with water tank",
+      "Application": "Apartments, balconies, classrooms, urban gardens"
+    },
+    "features": [
+      "Vertical and compact hydroponic design",
+      "Customizable plant capacity",
+      "Supports all plant types",
+      "LED grow light compatible",
+      "Easy to install and maintain"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "LivingBox – Mini Hydroponics Solar Greenhouse",
+    "description": "A compact and self-contained hydroponic greenhouse system with solar power support. Ideal for growing fresh vegetables at home with protection from pests and weather.",
+    "image": "/assets/22.png",
+    "images": [
+      "/assets/22.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Mini Hydroponic Greenhouse",
+      "Power Source": "Solar panel (included)",
+      "Material": "Nylon cover, transparent plastic panels",
+      "Protection": "Insect mesh and UV-resistant cover",
+      "Assembly": "Easy DIY setup with guide",
+      "Application": "Balconies, rooftops, indoor gardens"
+    },
+    "features": [
+      "Solar-powered ventilation and lighting options",
+      "Integrated pest protection mesh",
+      "Durable weather-resistant materials",
+      "Compact design for urban gardening",
+      "Educational and beginner-friendly setup"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "GreenBox Series – Hydroponic System",
+    "description": "A stylish and low-maintenance hydroponic system that mimics natural stone design. Uses Deep Water Culture (DWC) technique to grow plants efficiently indoors.",
+    "image": "/assets/23.png",
+    "images": [
+      "/assets/23.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "DWC Hydroponic System",
+      "Design": "Natural stone-look containers",
+      "Capacity": "Varies per container (typically 3–6 plants)",
+      "Operation": "No assembly required",
+      "Application": "Home gardening, balconies, windowsills"
+    },
+    "features": [
+      "Deep Water Culture (DWC) hydroponics",
+      "Elegant design with stone finish",
+      "Ideal for herbs, leafy greens, and houseplants",
+      "Compact and decorative",
+      "No tools or setup needed"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "HOMIE – NFT Hydroponics Mini System",
+    "description": "A compact NFT-based hydroponic system designed for beginners and small spaces. Suitable for growing 8 to 16 plants using nutrient film technique.",
+    "image": "/assets/24.png",
+    "images": [
+      "/assets/24.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "NFT Hydroponic System",
+      "Capacity Options": "8 or 16 plants",
+      "Structure": "PVC frame with water reservoir",
+      "Ideal For": "Beginners, indoor gardening",
+      "Application": "Small balconies, kitchens, classrooms"
+    },
+    "features": [
+      "Simple NFT design",
+      "Lightweight and portable",
+      "No soil required",
+      "Low water consumption",
+      "Perfect for leafy greens and herbs"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "LIVINGSPACE – Combined NFT & Drip Hydroponic System",
+    "description": "A dual-tech hydroponic system combining NFT and drip irrigation. Designed to optimize nutrient delivery and support large-rooted plants both indoors and outdoors.",
+    "image": "/assets/25.png",
+    "images": [
+      "/assets/25.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "NFT + Drip Hydroponic System",
+      "Capacity": "Varies based on module size",
+      "Pipe Design": "Wide tubes for large-root plants",
+      "Nutrient Delivery": "Dual flow (top and bottom feeding)",
+      "Application": "Balconies, greenhouses, rooftops, indoor farming"
+    },
+    "features": [
+      "Combines two irrigation techniques for efficiency",
+      "Custom nutrient flow for each plant",
+      "Suitable for herbs, vegetables, and root-heavy crops",
+      "Flexible for indoor and outdoor use",
+      "Durable and modular design"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Small Home Greenhouse",
+    "description": "A compact and durable greenhouse for home gardening, featuring UV-resistant panels and rust-proof frame. Ideal for growing plants in outdoor or indoor settings.",
+    "image": "/assets/26.png",
+    "images": [
+      "/assets/26.png",
+      "/assets/27.png",
+      "/assets/28.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Frame Material": "Rust-proof aluminum",
+      "Panel Material": "Polycarbonate, UV-blocking, high impact resistance",
+      "Light Transmission": "Up to 82%",
+      "Drainage": "Integrated bottom water drainage",
+      "Base": "Double-layer plastic base",
+      "Application": "Home gardens, patios, balconies"
+    },
+    "features": [
+      "Easy to assemble",
+      "Protects plants from weather and pests",
+      "Highly transparent roof for optimal light",
+      "Sturdy and weather-resistant build",
+      "Suitable for vegetables, herbs, and flowers"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "70L Home Composter",
+    "description": "Efficient and compact home composter with a built-in aeration system for accelerating organic waste decomposition into rich compost.",
+    "image": "/assets/29.png",
+    "images": [
+      "/assets/29.png",
+      "/assets/30.png",
+      "/assets/31.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Rotating drum composter",
+      "Capacity": "70 liters",
+      "Dimensions": "74 × 60 × 43 cm",
+      "Material": "UV-resistant plastic with metal frame",
+      "Aeration": "Integrated air vents",
+      "Application": "Backyards, home gardens, eco-friendly households"
+    },
+    "features": [
+      "Fast composting via internal airflow",
+      "UV-protected durable plastic",
+      "Rotating drum for easy mixing",
+      "Tool-free assembly",
+      "Sustainable waste reduction solution"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "105L Home Composter",
+    "description": "Large-capacity home composter with a built-in aeration system to efficiently transform organic waste into nutrient-rich compost.",
+    "image": "/assets/32.png",
+    "images": [
+      "/assets/32.png",
+      "/assets/33.png",
+      "/assets/34.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Rotating drum composter",
+      "Capacity": "105 liters",
+      "Dimensions": "84 × 60 × 61 cm",
+      "Material": "UV-resistant plastic with metal support",
+      "Aeration": "Built-in ventilation",
+      "Application": "Home gardens, urban agriculture, sustainable living"
+    },
+    "features": [
+      "Accelerated composting process",
+      "Large capacity for more waste",
+      "UV-protected structure",
+      "Sturdy and rust-resistant frame",
+      "Easy to assemble and operate"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "120L Home Composter",
+    "description": "Vertical composting system with 120-liter capacity, featuring built-in aeration and UV-resistant structure. Converts organic waste into natural fertilizer efficiently.",
+    "image": "/assets/35.png",
+    "images": [
+      "/assets/35.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Vertical aerated composter",
+      "Capacity": "120 liters",
+      "Dimensions": "103 × 71 × 71 cm",
+      "Material": "UV-protected plastic",
+      "Aeration": "Natural airflow design",
+      "Application": "Gardens, eco-friendly homes, composting projects"
+    },
+    "features": [
+      "Efficient aeration system",
+      "UV protection for durability",
+      "Top lid for loading and bottom hatch for extraction",
+      "Tool-free, quick assembly",
+      "Promotes sustainable waste recycling"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "140L Home Composter",
+    "description": "Dual-chamber home composter with a 140-liter capacity and advanced aeration system, allowing continuous organic waste composting.",
+    "image": "/assets/36.png",
+    "images": [
+      "/assets/36.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Dual-chamber rotating composter",
+      "Capacity": "140 liters",
+      "Dimensions": "82 × 60 × 65 cm",
+      "Material": "UV-resistant polypropylene with steel frame",
+      "Aeration": "Side air vents for accelerated decomposition",
+      "Application": "Home gardens, suburban composting, eco-living"
+    },
+    "features": [
+      "Two separate rotating chambers",
+      "UV-protected and durable materials",
+      "Faster compost cycles",
+      "Stable and rust-resistant frame",
+      "Easy to load, turn, and unload"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "210L Home Composter",
+    "description": "Heavy-duty dual-chamber home composter with 210-liter capacity. Designed for high-volume composting with enhanced aeration and UV protection.",
+    "image": "/assets/37.png",
+    "images": [
+      "/assets/37.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Large dual-chamber rotating composter",
+      "Capacity": "210 liters",
+      "Dimensions": "95 × 60 × 82 cm",
+      "Material": "Reinforced UV-protected plastic",
+      "Aeration": "Ventilated chamber with internal mixing",
+      "Application": "Large home gardens, eco-communities, educational use"
+    },
+    "features": [
+      "Maximum composting capacity",
+      "Two separate chambers for continuous composting",
+      "UV-protected and weather-resistant build",
+      "Ergonomic design for easy rotation",
+      "Quick assembly with minimal tools"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "600L Septic Tank",
+    "description": "Compact and durable 600-liter septic tank designed for small-scale wastewater treatment. Suitable for remote buildings, cabins, or eco-friendly installations.",
+    "image": "/assets/38.png",
+    "images": [
+      "/assets/38.png",
+      "/assets/39.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Septic Tank",
+      "Capacity": "600 liters",
+      "Material": "High-density polyethylene (HDPE)",
+      "Dimensions": {
+        "Length": "1603 mm",
+        "Width": "800 mm",
+        "Height": "1139 mm",
+        "Inlet Height": "895 mm",
+        "Outlet Height": "830 mm"
+      },
+      "Application": "On-site sewage systems, rural housing, eco cabins"
+    },
+    "features": [
+      "Corrosion and chemical-resistant body",
+      "Compact footprint for limited spaces",
+      "Pre-fitted inlet and outlet ports",
+      "Lightweight and easy to install",
+      "Ideal for decentralized wastewater management"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "300L Septic Tank",
+    "description": "Durable and space-efficient 300-liter septic tank ideal for small-scale sewage treatment in homes or remote locations.",
+    "image": "/assets/40.png",
+    "images": [
+      "/assets/40.png",
+      "/assets/41.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Septic Tank",
+      "Capacity": "300 liters",
+      "Material": "High-density polyethylene (HDPE)",
+      "Dimensions": {
+        "Length": "1438 mm",
+        "Width": "670 mm",
+        "Height": "884 mm",
+        "Inlet Height": "635 mm",
+        "Outlet Height": "581 mm"
+      },
+      "Application": "Cabins, gardens, eco-toilets, decentralized waste systems"
+    },
+    "features": [
+      "Corrosion and chemical resistant",
+      "Compact size for limited spaces",
+      "Pre-installed inlet/outlet connectors",
+      "Lightweight for easy handling",
+      "Reliable solution for off-grid sewage"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Smart Irrigation & Fertilization Control System",
+    "description": "AI-powered smart system for automated irrigation and fertilization. Offers remote monitoring, data logging, and intelligent crop management.",
+    "image": "/assets/42.png",
+    "images": [
+      "/assets/42.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "AI-based smart agriculture controller",
+      "Functions": [
+        "Irrigation control",
+        "Fertilizer dosing control",
+        "Remote access and monitoring",
+        "Climate and soil data analysis"
+      ],
+      "Connectivity": "Wi-Fi / GSM / Bluetooth (varies by model)",
+      "Compatibility": "Mobile app (iOS/Android)",
+      "Application": "Greenhouses, vertical farms, open-field agriculture"
+    },
+    "features": [
+      "Remote monitoring via mobile app",
+      "AI-driven automation of water and nutrient delivery",
+      "Real-time alerts and historical data tracking",
+      "Modular design with multi-zone control",
+      "Supports integration with smart sensors"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Smart Weather Control Modules",
+    "description": "AI-powered environmental control modules for automating climate-sensitive operations. Ideal for smart farming, irrigation, and greenhouse automation.",
+    "image": "/assets/43.png",
+    "images": [
+      "/assets/43.png"
+    ],
+    "category": "envirotech",
+    "specifications": {
+      "Type": "Smart climate control system",
+      "Functions": [
+        "Weather-based automation",
+        "Remote monitoring",
+        "Socket & sensor integration",
+        "AI-driven environmental adaptation"
+      ],
+      "Connectivity": "Wi-Fi / GSM / Bluetooth",
+      "Platform": "Integrated mobile app (iOS/Android)",
+      "Application": "Greenhouses, hydroponics, smart homes, smart farms"
+    },
+    "features": [
+      "Accurate AI-powered weather prediction",
+      "Fully automated climate control",
+      "Supports multiple sensor modules",
+      "Modular socket & controller configurations",
+      "Remote control and real-time alerts"
     ]
   }
+
 ]
