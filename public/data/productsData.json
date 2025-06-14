@@ -103,7 +103,7 @@
   },
   {
     "id": 5,
-    "title": "Farmers & Dairy System – HomeBiogas",
+    "title": "Farmers & Dairy – Biogas System ",
     "description": "Specialized biogas system designed for farmers and dairy operations. Converts animal manure into clean cooking gas and organic fertilizer.",
     "image": "/assets/biogas3.png",
     "images": [
@@ -153,7 +153,7 @@
   },
   {
     "id": 7,
-    "title": "HomeBiogas Water Heater",
+    "title": "Biogas Water Heater",
     "description": "A compact, energy-efficient water heater that runs on biogas, providing a sustainable solution for on-demand hot water.",
     "image": "/assets/biogas9.png",
     "images": [
@@ -762,6 +762,379 @@
       "Supports multiple sensor modules",
       "Modular socket & controller configurations",
       "Remote control and real-time alerts"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Tiger Neo 78HC-BDV",
+    "description": "High-performance solar panel with 650Wp front-side power and 23.3% efficiency. Designed for long-term reliability with a 30-year linear power warranty.",
+    "image": "/assets/44.jpg",
+    "images": [
+      "/assets/44.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Power Output": "650Wp (Front only)",
+      "Efficiency": "23.3%",
+      "Warranty": "30 Year Linear Power Warranty",
+      "Technology": "Monocrystalline",
+      "Application": "Commercial, Industrial, Utility-scale"
+    },
+    "features": [
+      "650W front-side power output",
+      "High 23.3% efficiency rating",
+      "30-year linear performance warranty",
+      "Durable monocrystalline technology",
+      "Suitable for large-scale solar installations"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Tiger Neo 72HC",
+    "description": "605Wp solar panel with exceptional 23.4% efficiency and a 30-year linear power warranty, ideal for long-term energy projects.",
+    "image": "/assets/45.jpg",
+    "images": [
+      "/assets/45.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Power Output": "605Wp",
+      "Efficiency": "23.4%",
+      "Warranty": "30 Year Linear Power Warranty",
+      "Technology": "Monocrystalline",
+      "Application": "Commercial, Industrial, Utility-scale"
+    },
+    "features": [
+      "605W high-efficiency output",
+      "23.4% panel conversion rate",
+      "30-year linear performance warranty",
+      "Monocrystalline build for durability",
+      "Perfect for utility-scale solar fields"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Tiger Neo 66HC",
+    "description": "635Wp high-performance solar panel with 23.51% efficiency and long-lasting 30-year power warranty.",
+    "image": "/assets/46.jpg",
+    "images": [
+      "/assets/46.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Power Output": "635Wp",
+      "Efficiency": "23.51%",
+      "Warranty": "30 Year Linear Power Warranty",
+      "Technology": "Monocrystalline",
+      "Application": "Commercial and Industrial Projects"
+    },
+    "features": [
+      "635W high power output",
+      "23.51% high-efficiency performance",
+      "Durable and reliable build",
+      "30-year linear power warranty",
+      "Optimized for high-yield installations"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Tiger Neo 48 All Black",
+    "description": "450-475W N-Type Monofacial Module with Dual Glass. Ideal for sleek residential installations with high durability and modern aesthetics.",
+    "image": "/assets/47.jpg",
+    "images": [
+      "/assets/47.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Power Output": "450-475W",
+      "Type": "N-Type",
+      "Module Style": "Monofacial All Black",
+      "Glass": "Dual Glass",
+      "Application": "Residential and Aesthetic Installations"
+    },
+    "features": [
+      "Elegant full black design",
+      "Dual glass for enhanced durability",
+      "450–475W power range",
+      "Monofacial for high-efficiency front-side capture",
+      "Perfect for rooftops and visible installations"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "ABB SACE Circuit Breakers",
+    "description": "Low-voltage molded case and air circuit breakers from 160 to 6300A, offering advanced protection, customization, and cyber-secure operation.",
+    "image": "/assets/48.jpg",
+    "images": [
+      "/assets/48.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Type": "Molded Case & Air Circuit Breakers",
+      "Current Range": "160A – 6300A",
+      "Customization": "Full device customization via Ekip architecture",
+      "Cyber Security": "ISA/IEC 62443-4-1 compliant",
+      "Lifecycle": "Designed for long-term evolution and upgrade"
+    },
+    "features": [
+      "High efficiency and connectivity for modern grids",
+      "Smart grid compatibility",
+      "Robust and accurate power protection",
+      "Cyber-secure lifecycle management",
+      "Suitable for mission-critical applications"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "SACE Emax 2 – Power Manager",
+    "description": "From a traditional circuit breaker to an all-in-one power management solution for low-voltage distribution systems.",
+    "image": "/assets/49.jpg",
+    "images": [
+      "/assets/49.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Sizes": "4 sizes with compact high-performance design",
+      "Standards": "Triple certified (IEC, UL, CCC)",
+      "Energy Measurement": "Class 1 active energy metering (IEC61557-12)",
+      "Functions": [
+        "Load Shedding",
+        "Power Controller",
+        "Automatic Transfer Switch (ATS)",
+        "Interface Protection",
+        "Synchrocheck logics",
+        "Adaptive Protection"
+      ],
+      "Connectivity": "8 protocols supported, Bluetooth LE, ABB Ability™ cloud platform",
+      "User Interface": "User-friendly tools, Plug & Play accessories"
+    },
+    "features": [
+      "Advanced grid control and monitoring",
+      "Cloud connectivity via ABB Ability™",
+      "Fully customizable platform",
+      "Remote access via Bluetooth Low Energy",
+      "Easy installation and commissioning"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "SACE Tmax T – Moulded Case Circuit Breakers",
+    "description": "A complete range of moulded case circuit-breakers up to 3200 A, offering compact size, flexibility, and advanced protection features.",
+    "image": "/assets/50.jpg",
+    "images": [
+      "/assets/50.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Current Rating": "Up to 3200 A",
+      "Poles": "Three-pole and four-pole versions",
+      "Mounting Types": [
+        "Fixed",
+        "Plug-in (T4, T5)",
+        "Withdrawable (T4, T5, T6, T7)"
+      ],
+      "Breaking Capacity": "High breaking capacity at multiple voltage levels",
+      "Trip Units": [
+        "Thermomagnetic",
+        "Electronic (interchangeable)"
+      ],
+      "AC/DC Support": "Available for both AC/DC and AC only systems"
+    },
+    "features": [
+      "Compact size with high short-circuit capacity",
+      "Flexible installation and trip unit upgrade",
+      "Early Fault Detection and Prevention algorithms",
+      "Advanced selectivity and protection levels",
+      "Cost-effective modular upgrades"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "SACE Infinitus – Solid State Circuit Breaker",
+    "description": "The world’s first fully IEC 60947-2 certified Solid State Circuit Breaker (SSCB), combining protection, control, and efficiency for DC power systems up to 1250V DC and 2500A.",
+    "image": "/assets/51.jpg",
+    "images": [
+      "/assets/51.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Rated Current": "Up to 2500 A",
+      "Voltage": "Up to 1250 V DC",
+      "Functionality": [
+        "Circuit breaker",
+        "Contactor",
+        "Isolator",
+        "Energy meter"
+      ],
+      "Standards": "IEC 60947-2 certified",
+      "Communication": "Multiple integrated protocols",
+      "Technology": "Hybrid solid-state + electromechanical"
+    },
+    "features": [
+      "First SSCB certified to IEC 60947-2",
+      "All-in-one solution for DC power systems",
+      "Ultra-fast current interruption with near-zero arc exposure",
+      "Reduces power losses by up to 70%",
+      "Ideal for renewables, marine, smart transport & buildings",
+      "Supports seamless integration with PV and BESS"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Ekip UP+",
+    "description": "The low-voltage digital unit that monitors, protects, and controls next-generation plants. Designed for full digitalization and remote upgrade via ABB Ability Marketplace™.",
+    "image": "/assets/52.jpg",
+    "images": [
+      "/assets/52.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Type": "Low-voltage digital unit",
+      "Core Functions": [
+        "Monitoring",
+        "Protection",
+        "Control",
+        "Energy management"
+      ],
+      "Integration": "ABB Ability Marketplace™ upgrades",
+      "Flexibility": "Configurable for multiple applications",
+      "Compatibility": "Retrofit-ready for old facilities"
+    },
+    "features": [
+      "Digital upgrade for existing plants",
+      "Software-based customizable functions",
+      "No need for external devices",
+      "Supports remote configuration & commissioning",
+      "Minimizes downtime with seamless integration"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "SACE FORMULA",
+    "description": "Compact, cost-effective molded case circuit breakers designed for quick installation and easy use. Ideal for distribution boards requiring reliable, standardized protection.",
+    "image": "/assets/53.jpg",
+    "images": [
+      "/assets/53.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Type": "Molded Case Circuit Breaker",
+      "Range (IEC)": "A0 to A3, up to 630A",
+      "Range (UL)": "A1 and A2, up to 100A and 250A",
+      "Poles": "1, 2, 3, and 4-pole versions",
+      "Temperature Rating": "No derating up to 50°C"
+    },
+    "features": [
+      "Extremely compact dimensions",
+      "Standardized installation with coordinated depths",
+      "Pre-cabled accessories for fast installation",
+      "Fixed threshold trip units",
+      "FORMULA Link system for simplified setup"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Tmax Link",
+    "description": "UL/CSA certified switchboard and panelboard solution that enables OEMs to assemble ABB MCCBs under their own brand with high flexibility and reduced production time.",
+    "image": "/assets/54.jpg",
+    "images": [
+      "/assets/54.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Application": "UL/CSA Switchboards and Panelboards",
+      "Breaker Type": "ABB Tmax XT Molded Case Circuit Breakers",
+      "Frame Sizes": "100A to 1200A",
+      "Section Widths": "28\", 32\", 38\"",
+      "Design Features": "1.25\" and 1.38\" hole spacing, group mounting"
+    },
+    "features": [
+      "Enables OEM branding and UL/CSA certification through ABB program",
+      "Compact and configurable design using Tmax XT MCCBs",
+      "Fast and easy to manufacture with standard components",
+      "Versatile layout options for switchboards and panelboards",
+      "Reduces financial risk and enhances production capability"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Surge Protectors for Solar Panels",
+    "description": "High-quality surge protection devices designed for solar power systems. Available for AC single-phase, AC three-phase, and DC circuits from trusted brands like GACIA, PHOENIX, and SAKO.",
+    "image": "/assets/55.jpg",
+    "images": [
+      "/assets/55.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Types Available": [
+        "AC Single Phase (1Ph)",
+        "AC Three Phase (3Ph)",
+        "DC Surge Protection"
+      ],
+      "Brands": [
+        "GACIA, SAKO, PHOENIX"
+      ],
+      "Usage": "Solar power panels, inverters, and energy distribution boards",
+      "Protection Level": "Standard and high-performance models available"
+    },
+    "features": [
+      "Protects sensitive solar equipment from lightning strikes and voltage spikes",
+      "Compatible with both AC and DC circuits",
+      "Compact and easy to install on DIN rail",
+      "Multiple configurations to suit various panel setups",
+      "Trusted international brands ensuring safety and durability"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "1KW Solar Inverter",
+    "description": "Compact and efficient 1KW solar inverter for small to medium off-grid or hybrid solar systems. Designed to deliver stable power output with smart protections.",
+    "image": "/assets/56.jpg",
+    "images": [
+      "/assets/56.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Power Output": "1000W / 1KW",
+      "Type": "Pure Sine Wave",
+      "Input Voltage": "DC 12V / 24V (configurable)",
+      "Output Voltage": "AC 220V ±5%",
+      "Waveform": "Pure sine wave",
+      "Efficiency": "≥ 90%",
+      "Application": "Homes, cabins, RVs, small businesses"
+    },
+    "features": [
+      "Reliable pure sine wave output",
+      "Built-in protections: Overload, short-circuit, over-temperature",
+      "LCD display for real-time status",
+      "Compatible with solar charge controllers",
+      "Quiet fan-cooled operation"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "ABB OT40F4C Manual Transfer Switch",
+    "description": "Reliable manual switch (OT40F4C) used for safe and efficient power transfer applications, ideal for solar panels and industrial use.",
+    "image": "/assets/57.jpg",
+    "images": [
+      "/assets/57.jpg"
+    ],
+    "category": "solar",
+    "specifications": {
+      "Model": "OT40F4C",
+      "Rated Current": "40A",
+      "Poles": "4 Poles",
+      "Switch Type": "Manual Transfer Switch",
+      "Rated Voltage": "600V AC / DC",
+      "Mounting": "Panel Mountable",
+      "Application": "Solar systems, industrial load switching, emergency backup systems"
+    },
+    "features": [
+      "Compact and robust design",
+      "Reliable manual operation for load switching",
+      "Clear ON/OFF/Transfer markings",
+      "UL and CE certified",
+      "Safe isolation with visible status"
     ]
   }
 
