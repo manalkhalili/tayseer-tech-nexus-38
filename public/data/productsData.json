@@ -1136,6 +1136,108 @@
       "UL and CE certified",
       "Safe isolation with visible status"
     ]
+  },
+  {
+    "id": 44,
+    "title": "Al-Tayseer Eco-Agri Tourism Resort",
+    "description": "An eco-tourism resort under construction in Ramallah, designed to promote sustainable, off-grid living through green building practices and integrated agriculture.",
+    "image": "/assets/eco agri.jpg",
+    "images": [
+      "/assets/eco agri.jpg"
+    ],
+    "category": "construction",
+    "specifications": {
+      "Project Type": "Eco-agricultural tourism resort",
+      "Sustainability": "Off-grid systems, renewable energy, water harvesting",
+      "Purpose": "Sustainable tourism & awareness",
+      "Design Approach": "Green architecture with integrated agriculture",
+      "Location": "Ramallah, Palestine",
+      "Client": "Own Development Project",
+      "Construction Status": "Under Construction"
+    },
+    "features": [
+      "Off-grid energy and water systems",
+      "Eco-friendly building materials",
+      "Organic farming integration",
+      "Tourist accommodation and agri-tourism experiences",
+      "Environmental education and outreach facilities"
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Al-Tayseer 2 Building",
+    "description": "A multi-purpose building designed for both residential and commercial use, located in the West Bank and completed in 2019.",
+    "image": "/assets/2222222222222222222.png",
+    "images": ["/assets/2222222222222222222.png"],
+    "category": "construction",
+    "specifications": {
+      "Project Type": "Residential & Commercial",
+      "Floors": "Multi-level (custom usage)",
+      "Total Area": "2500 sqm",
+      "Purpose": "Mixed-use functionality",
+      "Location": "West Bank, Palestine",
+      "Client": "Own Development Project",
+      "Construction Status": "Completed",
+      "Completion Date": "June 2019"
+    },
+    "features": [
+      "Contemporary architectural design",
+      "Strong structural engineering",
+      "Energy-efficient materials",
+      "Ideal for both families and businesses"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Al-Tayseer 1 Building",
+    "description": "A modern multi-purpose building located in Tulkarm, designed to meet both residential and commercial demands, completed in 2018.",
+    "image": "/assets/1111111111111111111.png",
+    "images": ["/assets/1111111111111111111.png"],
+    "category": "construction",
+    "specifications": {
+      "Project Type": "Residential & Commercial",
+      "Floors": "Multi-storey (customizable)",
+      "Total Area": "2500 sqm",
+      "Purpose": "Retail and living",
+      "Location": "Tulkarm, Palestine",
+      "Client": "Own Development Project",
+      "Construction Status": "Completed",
+      "Completion Date": "June 2018"
+    },
+    "features": [
+      "Reinforced concrete structure",
+      "Modern architectural design",
+      "Energy-efficient planning",
+      "Space optimized for retail and residential use"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Al-Tayseer 3 Building",
+    "description": "The upcoming addition to the Al-Tayseer building series, designed for mixed-use functionality and sustainable living. Currently under construction.",
+    "image": "/assets/coming-soon.png",
+    "images": ["/assets/coming-soon.png"],
+    "category": "construction",
+    "specifications": {
+      "Project Type": "Residential & Commercial",
+      "Floors": "Multi-level",
+      "Total Area": "2500 sqm",
+      "Purpose": "Retail and residential",
+      "Location": "Baqa Al-Sharqia, Tulkarm, Palestine",
+      "Client": "Own Development Project",
+      "Construction Status": "Under Construction",
+      "Completion Date": "In Progress"
+    },
+    "features": [
+      "Modern structural design",
+      "Mixed-use flexibility",
+      "Planned energy-efficient systems",
+      "Spacious layouts for commercial and living areas"
+    ]
   }
+
+
+
+
 
 ]

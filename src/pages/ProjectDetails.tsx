@@ -147,10 +147,10 @@ const ProjectDetails: React.FC = () => {
                     <span className="font-medium text-gray-700">Location:</span>
                     <span className="text-gray-900">{project.location}</span>
                   </div>
-                  <div className="flex justify-between border-b pb-2">
+                  {/*<div className="flex justify-between border-b pb-2">
                     <span className="font-medium text-gray-700">Completed:</span>
                     <span className="text-gray-900">{project.completionDate}</span>
-                  </div>
+                  </div>*/}
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4">

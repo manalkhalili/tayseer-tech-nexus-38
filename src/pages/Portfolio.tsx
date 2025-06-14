@@ -123,10 +123,10 @@ const Portfolio = () => {
                           <span className="font-medium">Client:</span>
                           <span>{project.client}</span>
                         </div>
-                        <div className="flex justify-between">
+                        {/*<div className="flex justify-between">
                           <span className="font-medium">Completed:</span>
                           <span>{project.completionDate}</span>
-                        </div>
+                        </div>*/}
                       </div>
                     </CardContent>
                     <CardFooter className="border-t pt-4">

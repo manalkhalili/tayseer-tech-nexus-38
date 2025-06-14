@@ -1,0 +1,196 @@
+[
+
+  {
+    "id": 1,
+    "title": "Everything In Life, From Water",
+    "author": "Caroline Champlin",
+    "date": "Spring 2025",
+    "category": "Environmental Leadership",
+    "image": "/assets/_sp25-ali-odeh_01-odeh.jpg",
+    "readTime": "7 min read",
+    "tags": ["Water", "Palestine", "Leadership", "Environment"],
+    "excerpt": "Ali Odeh shares his journey from Palestine’s water crisis to the Beahrs Environmental Leadership Program at UC Berkeley and how leadership and innovation are shaping access to clean water.",
+    "sections": [
+      {
+        "title": "The Water Crisis in Palestine",
+        "paragraphs": [
+          "Water in Palestine is rarely just that. Often, it’s salty. Sometimes it’s polluted with waste. When people need it most, it may not be there at all.",
+          "“We are living in a hot area. This summer the situation became critical,” says Ali Odeh, executive director of the Union of Palestinian Water Service Providers. “We have supply systems, but we don’t have water. The pipes are empty.”",
+          "In his role, Odeh oversees nearly 300 water service providers operating across Palestine, from Gaza to the West Bank, where he lives. Since the latest war began in Palestine, water has become potently infused with politics.",
+          "Some Palestinian service providers draw on groundwater and desalination plants, but to get by, nearly every provider has to buy additional supply from an Israeli company. It’s a fraught dependency, and according to Odeh, a frequent topic of discussion in service provider meetings.",
+          "“There’s lots of strong opinions,” says Odeh, who serves as the mediator for the group. “You have to understand the politics, the technical, the financial, all in one.”",
+          "Odeh has been at the center of this complex operation since 2017. He’s earned international funding for local infrastructure improvements and conducted capacity-building programs for service providers, all amid ongoing geopolitical turmoil."
+        ]
+      },
+      {
+        "title": "Critical Resource in Crisis",
+        "paragraphs": [
+          "Last year, Odeh was selected to participate in Rausser College’s Beahrs Environmental Leadership Program (ELP). For more than 20 years, the summer certificate program has drawn environmental and climate professionals from all over the world to the UC Berkeley campus.",
+          "With water systems shattered by bombings and supplies held up at checkpoints, the lessons Odeh learned have been urgently needed back home. Many Palestinians are living on a fraction of the daily water intake recommended by the World Health Organization.",
+          "Meanwhile, climate change is increasing temperatures and further exacerbating the humanitarian crisis in the region. “You can feel it here,” Odeh says. “It becomes very hard to live without air conditioning.”",
+          "The faculty Odeh heard from at Berkeley are helping him approach the urgent resource crisis in Palestine from a common global perspective, governed by the same environmental forces and basic human needs.",
+          "“In our Quran, there is a verse: ‘We make everything in life from water.’ This program made me better understand the meaning of that,” Odeh says.",
+          "Odeh was especially appreciative of UC Berkeley alum and longtime ELP advocate John Gage, who gave him a copy of Professor David Sedlak’s book, Water for All. “This book caused me to think deeply about natural resources. Not just what’s going on now, but preventive action.”",
+          "While living in Berkeley, Odeh took coursework about risk mitigation and applied those lessons to support Palestinian water service providers. He even launched a social media campaign using influencers to encourage water bill payments, which helped stabilize incomes for some providers."
+        ]
+      },
+      {
+        "title": "Decentralizing Natural Resources",
+        "paragraphs": [
+          "Besides new skills, connections made at UC Berkeley have followed Odeh back home. He’s currently collaborating on a research paper with UC Berkeley professors about water rights in Palestine.",
+          "In addition to his work with water, Odeh has spent the last several years managing his own business, developing and selling sustainable services like biodigesters, hydroponics, and solar panels.",
+          "“All of the solutions that I invest in are decentralized—at the household level, at the village level, and at the city level,” Odeh says. “In case problems happen, you have your own sources of water, energy, and food. You can take them and survive.”",
+          "Since participating in the ELP, Odeh says he’s learned the difference between acting as a manager and serving as a true leader. “It starts with a lot of small behaviors. For example, when leaving a room, I turn off the light,” Odeh says. “If I do that, and you do that, and one million people do that, we will make global change.”"
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/_sp25-ali-odeh_01-odeh.jpg",
+      "/assets/_sp25-ali-odeh_02-odeh-gage.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Dutch Delegation Visits Al-Tayseer International Co. for Construction",
+    "author": "Al-Tayseer Team",
+    "date": "June 2025",
+    "category": "Company Visit",
+    "image": "/assets/holand3.jpg",
+    "readTime": "3 min read",
+    "tags": ["Visit", "Netherlands", "Renewable Energy", "Tayseer"],
+    "excerpt": "A delegation from the Dutch representative office visited Tayseer International for Development to explore the company's products and sustainable energy solutions.",
+    "sections": [
+      {
+        "title": "Dutch Delegation at Tayseer",
+        "paragraphs": [
+          "Tayseer International for Development had the honor of welcoming a delegation from the Dutch representative office to its headquarters.",
+          "The visit aimed to explore Tayseer's innovative energy solutions, including solar, biogas, and environmental technology systems tailored to local needs."
+        ]
+      },
+      {
+        "title": "Promoting Sustainable Collaboration",
+        "paragraphs": [
+          "During the visit, the Dutch representatives engaged with Tayseer’s team to learn about ongoing projects and discuss future areas of collaboration.",
+          "This visit marks an important step towards fostering international partnerships in sustainable development and clean technology."
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/holand1.jpg",
+      "/assets/holand2.jpg",
+      "/assets/holand3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Red Cross Delegation Visits Tayseer International for Development",
+    "author": "Tayseer Energy Team",
+    "date": "June 2025",
+    "category": "Company Visit",
+    "image": "/assets/ic1.jpg",
+    "readTime": "3 min read",
+    "tags": ["Visit", "Red Cross", "Renewable Energy", "Tayseer"],
+    "excerpt": "A Red Cross delegation visited Tayseer International for Development to review sustainable energy solutions and explore future cooperation opportunities.",
+    "sections": [
+      {
+        "title": "Red Cross Visits Tayseer Headquarters",
+        "paragraphs": [
+          "Tayseer International for Development welcomed a delegation from the Red Cross organization at its headquarters in Palestine.",
+          "The visit included a presentation of Tayseer’s energy and environmental technology solutions, highlighting innovative approaches in solar and biogas systems."
+        ]
+      },
+      {
+        "title": "Exploring Humanitarian Energy Solutions",
+        "paragraphs": [
+          "The Red Cross delegation showed particular interest in the potential of decentralized renewable energy solutions for humanitarian settings.",
+          "Discussions were held around possible cooperation in future projects aiming to enhance energy access in vulnerable communities."
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/ic1.jpg",
+      "/assets/ic2.jpg",
+      "/assets/ic3.jpg"
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Hydroponic Farming: Growing More with Less",
+    "author": "Tayseer Energy Team",
+    "date": "June 2025",
+    "category": "Envirotech",
+    "image": "/assets/hyd.jpg",
+    "readTime": "5 min read",
+    "tags": ["Hydroponics", "Sustainability", "Agriculture", "Water Efficiency"],
+    "excerpt": "Discover how hydroponic systems are revolutionizing agriculture by growing more food with less water, space, and environmental impact.",
+    "sections": [
+      {
+        "title": "What Is Hydroponic Farming?",
+        "paragraphs": [
+          "Hydroponic farming is a method of growing plants without soil, using mineral nutrient solutions in water. This technique allows crops to grow faster and with higher yields than traditional farming methods.",
+          "By controlling nutrients, light, and water, farmers can optimize plant health and production even in small or urban spaces."
+        ]
+      },
+      {
+        "title": "Benefits of Hydroponics",
+        "paragraphs": [
+          "Hydroponic systems use up to 90% less water than conventional agriculture. This makes them ideal for water-scarce regions such as Palestine.",
+          "Because they don’t rely on soil, hydroponics can be set up in rooftops, basements, or greenhouses, reducing the need for arable land and harmful pesticides.",
+          "The closed-loop systems also reduce nutrient runoff and allow for year-round production regardless of climate."
+        ]
+      },
+      {
+        "title": "Tayseer’s Hydroponic Innovation",
+        "paragraphs": [
+          "At Tayseer Energy, we design and implement custom hydroponic systems for households and communities. These setups are tailored to local needs, with minimal resource consumption.",
+          "Our goal is to empower people to grow their own food sustainably, whether in cities or villages, while conserving natural resources and promoting food security."
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/hyd.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Smart Homes: Integrating Renewable Energy Systems",
+    "author": "Tayseer Energy Team",
+    "date": "June 2025",
+    "category": "Envirotech",
+    "image": "/assets/img_3.png",
+    "readTime": "5 min read",
+    "tags": ["Smart Homes", "Renewable Energy", "Technology", "Energy Efficiency"],
+    "excerpt": "How modern smart home technology is making it easier than ever to efficiently manage renewable energy systems at home.",
+    "sections": [
+      {
+        "title": "The Rise of Smart Homes",
+        "paragraphs": [
+          "Smart homes are transforming the way we live by offering automated control over lighting, heating, cooling, and appliances.",
+          "By integrating sensors, controllers, and AI, homeowners can monitor energy usage in real-time and reduce unnecessary consumption."
+        ]
+      },
+      {
+        "title": "Renewable Energy Meets Smart Tech",
+        "paragraphs": [
+          "Today’s smart homes are increasingly being paired with renewable energy sources such as solar panels and battery storage.",
+          "Advanced systems can intelligently shift energy usage based on solar generation, grid demand, or battery capacity, maximizing efficiency and savings."
+        ]
+      },
+      {
+        "title": "Tayseer’s Smart Energy Solutions",
+        "paragraphs": [
+          "Tayseer Energy offers integrated smart energy packages for households, combining solar systems with smart inverters, monitoring apps, and automation controls.",
+          "Our mission is to help customers reduce their carbon footprint while enjoying convenience, savings, and energy independence."
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/img_3.png"
+    ]
+  }
+
+
+
+
+]

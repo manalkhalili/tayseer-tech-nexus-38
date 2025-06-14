@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile menu button */}
           <button
-              className="md:hidden text-white"
+              className={`md:hidden transition-colors ${isScrolled ? 'text-tayseer-orange' : 'text-white'}`}
               onClick={toggleMobileMenu}
               aria-label="Toggle mobile menu"
           >
