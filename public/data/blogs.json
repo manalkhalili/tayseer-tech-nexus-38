@@ -188,9 +188,84 @@
     "gallery": [
       "/assets/img_3.png"
     ]
+  },
+  {
+    "id": 6,
+    "title": "Advancing Organic Waste Recycling through Windrow Composting in Palestine",
+    "author": "Eng. Ali Odeh",
+    "date": "June 2025",
+    "category": "Envirotech",
+    "image": "/assets/ali.jpg",
+    "readTime": "7 min read",
+    "tags": ["Composting", "Sustainability", "Palestine", "Organic Waste", "Environmental Research"],
+    "excerpt": "A joint academic study under SRTP examines windrow composting as a sustainable solution for organic waste management in Palestine, presenting experimental insights and lab-verified results aligned with global standards.",
+    "sections": [
+      {
+        "title": "Overview of the Research Project",
+        "paragraphs": [
+          "This research was conducted under the University of California-Davis-Diamond Dubai Sustainability Research and Training Program (SRTP), project No. 201500387-02. The initiative explores sustainable methods for organic waste management in Palestine, where conventional practices suffer from low efficiency, weak infrastructure, and environmental degradation."
+        ]
+      },
+      {
+        "title": "The Need for Sustainable Waste Solutions",
+        "paragraphs": [
+          "Palestinian communities struggle with solid waste accumulation and poor recycling practices. Organic waste, which makes up a large portion of household waste, is often discarded without treatment. Windrow composting offers a cost-effective, scalable solution that transforms waste into valuable compost for agricultural use."
+        ]
+      },
+      {
+        "title": "Winter Composting Trials",
+        "paragraphs": [
+          "The first experiment took place during winter using five different composting piles built in soil trenches with mixtures of organic waste and other additives. Each pile followed a 2:1 wet weight ratio. The configurations were:",
+          "Pile 1: 2 parts organic waste + 1 part horse manure + sawdust layers",
+          "Pile 2: 2 parts organic waste + 1 part horse manure",
+          "Pile 3: 2 parts organic waste + 1 part sludge + sawdust layers",
+          "Pile 4: 2 parts organic waste + 1 part sludge",
+          "Pile 5: organic waste only + sawdust",
+          "The composting process lasted 100 days and included regular checks of temperature, moisture, and pH."
+        ]
+      },
+      {
+        "title": "Summer Trials and C:N Ratios",
+        "paragraphs": [
+          "During summer, four compost mixtures were tested based on carbon-to-nitrogen (C:N) ratios:",
+          "1:1:1 organic, horse manure, sludge",
+          "1:2:1 organic, horse manure, sludge",
+          "1:1:2 organic, horse manure, sludge",
+          "2:1:1 organic, horse manure, sludge",
+          "Two mixtures with the most balanced C:N ratios were selected for a second trial in greenhouse containers. The composting process was monitored closely for temperature, pH, and moisture levels."
+        ]
+      },
+      {
+        "title": "Composting Results and Observations",
+        "paragraphs": [
+          "In the winter trial, temperatures ranged between 7°C and 41°C. In summer, compost temperatures peaked at 66°C and later decreased to ambient levels, indicating compost maturity. Despite temperature fluctuations, moisture content and pH values stayed consistent.",
+          "The composting activity showed efficient microbial breakdown, especially during the thermophilic phase."
+        ]
+      },
+      {
+        "title": "Laboratory Analysis",
+        "paragraphs": [
+          "Samples from both trials were tested at Birzeit University Central Labs. Results showed compliance with US EPA regulations regarding heavy metals, nutrients, and pathogens.",
+          "All compost samples were free from Salmonella. E. coli and fecal coliform levels were within acceptable limits except for Pile 3 (winter) due to unstable sludge content."
+        ]
+      },
+      {
+        "title": "Mass Reduction and EPA Compliance",
+        "paragraphs": [
+          "The compost piles experienced significant weight reductions: 58% for the summer pile (Pile 2) and 56% for the winter pile (Pile 5). Pile 4 (winter) and Pile 2 (summer) had the best results in terms of compliance with USEPA 40 CFR Part 503 standards."
+        ]
+      },
+      {
+        "title": "Conclusion and Impact",
+        "paragraphs": [
+          "Windrow composting proved to be a viable method for organic waste treatment in Palestine. This research offers insights that support municipalities in adopting sustainable, environmentally sound practices. The study also opens new possibilities for using compost in land reclamation projects across regions with limited landfill space."
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/ali.jpg"
+    ]
   }
-
-
 
 
 ]
