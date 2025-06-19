@@ -76,7 +76,7 @@ const ProjectDetails: React.FC = () => {
   return (
       <Layout>
         {/* Hero Section with Dynamic Image */}
-        <section className="relative h-[550px] flex items-center justify-center">
+        <section className="relative h-[550px] flex items-center justify-center overflow-hidden w-full max-w-full">
           <div className="absolute inset-0 bg-tayseer-black">
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-40"
@@ -89,8 +89,8 @@ const ProjectDetails: React.FC = () => {
           </div>
         </section>
 
-        <div className="pt-24 md:pt-32 pb-16">
-          <div className="container-max">
+        <div className="pt-24 md:pt-32 pb-16 overflow-hidden">
+          <div className="container-max overflow-hidden">
             <button
                 onClick={() => navigate('/portfolio')}
                 className="mb-6 flex items-center text-tayseer-orange hover:underline"
@@ -147,10 +147,6 @@ const ProjectDetails: React.FC = () => {
                     <span className="font-medium text-gray-700">Location:</span>
                     <span className="text-gray-900">{project.location}</span>
                   </div>
-                  {/*<div className="flex justify-between border-b pb-2">
-                    <span className="font-medium text-gray-700">Completed:</span>
-                    <span className="text-gray-900">{project.completionDate}</span>
-                  </div>*/}
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4">
