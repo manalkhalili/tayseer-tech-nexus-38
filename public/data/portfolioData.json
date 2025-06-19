@@ -1,5 +1,36 @@
 [
   {
+    "id": 39,
+    "title": "Hydroponic Farming System – Waleed Salman Farm",
+    "description": "Design, implementation, and handover of a complete hydroponic farming system in Waleed Salman’s farm in Bethlehem, aimed at maximizing productivity and saving water through advanced agricultural technology.",
+    "image": "/assets/waleed3.jpg",
+    "images": [
+      "/assets/waleed1.jpg",
+      "/assets/waleed2.jpg",
+      "/assets/waleed3.jpg"
+    ],
+    "department": "envirotech",
+    "client": "Waleed Salman",
+    "completionDate": "May 2025",
+    "location": "Bethlehem, Palestine",
+    "specifications": {
+      "System Type": "Hydroponic farming system",
+      "Growing Capacity": "500 seedlings",
+      "Covered Area": "25 square meters",
+      "Technology": "Water-saving, high-efficiency hydroponic design",
+      "Execution": "Al-Tayseer International for Construction"
+    },
+    "features": [
+      "Modern hydroponic system for leafy greens",
+      "High efficiency in space and water usage",
+      "Supports sustainable agriculture practices",
+      "Boosts local food production in limited urban space",
+      "Delivered fully operational with planting infrastructure"
+    ],
+    "youtubeUrl": "",
+    "detailedDescription": "Al-Tayseer International successfully completed the design and implementation of a hydroponic farming system in the farm of Mr. Waleed Salman in Bethlehem. The project includes 500 seedlings planted over a 25-square-meter area using advanced hydroponic technology that reduces water consumption while increasing productivity. This turnkey system supports modern, sustainable farming practices, and offers a scalable model for urban and peri-urban agriculture in Palestine."
+  },
+  {
     "id": 1,
     "title": "BioToilet System",
     "description": "An innovative environmental solution that processes human waste to generate clean cooking gas while promoting ecological sustainability.",
@@ -533,6 +564,7 @@
     "youtubeUrl": "",
     "detailedDescription": "The solar energy project for Bal'a Municipality involved the complete establishment and commissioning of a solar power generation station. The project was funded by the Municipal Development and Lending Fund (MDLF) under the Municipal Development Program - Phase III, Second Cycle. Supervised by the engineering department of Bal'a Municipality (Eng. Widad Malek and Eng. Alaa Bourini) and MDLF representatives, and executed by Al-Tayseer International for Construction. The project was received by municipal officials including Mayor Farhan Shahrour and began supplying energy to the town's main grid network."
   }
+
 
 
 
