@@ -1,4 +1,85 @@
 [
+  {
+    "id": 8,
+    "title": "Al Tayseer Int. Co. at Green Solutions Expo Palestine 2025",
+    "author": "Eng. Ali Odeh",
+    "date": "Nov 2025",
+    "category": "Expo",
+    "image": "/assets/green-solutions-2025.jpg",
+    "readTime": "3 min read",
+    "tags": ["Green Solutions Expo", "Sustainability", "Renewable Energy", "Water Treatment", "Palestine 2025"],
+    "excerpt": "Highlights from Al Tayseer's participation in the Green Solutions Expo Palestine 2025 at the National Library of Palestine in Ramallah, showcasing practical projects and expertise in renewable energy, water treatment, waste management, and hydroponic agriculture.",
+    "sections": [
+      {
+        "title": "Al Tayseer Int. Co. at Green Solutions Expo Palestine 2025",
+        "paragraphs": [
+          "Al Tayseer Int. Co. participated in the Green Solutions Expo Palestine 2025, held at the National Library of Palestine in Ramallah, implemented by the German Agency for International Cooperation (GIZ), under the umbrella of the Ministry of National Economy and funded by the European Union. Our presence at the expo reflects our commitment to supporting the green solutions pathway and promoting sustainable development in Palestine.",
+          "Through our portfolio of projects and expertise in solar energy systems, water treatment, waste management, and hydroponic agriculture, Al Taysir International continuously works on delivering modern, environmentally friendly solutions that enhance resource efficiency and reduce environmental impact. This participation provided an opportunity to connect with partners, institutions, and innovators who share the same vision of a greener and more resilient future for Palestinian communities."
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/green-solutions-2025-1.jpg",
+      "/assets/green-solutions-2025-2.jpg",
+      "/assets/green-solutions-2025-3.jpg",
+      "/assets/green-solutions-2025-4.jpg",
+      "/assets/green-solutions-2025-5.jpg",
+      "/assets/green-solutions-2025-6.jpg",
+      "/assets/green-solutions-2025-7.jpg",
+      "/assets/green-solutions-2025-8.jpg",
+      "/assets/green-solutions-2025-9.jpg"
+    ]
+  },
+
+  {
+    "id": 9,
+    "title": "Al Tayseer Int. Co. at \"Steps Towards Sustainability\" Green Building Conference & Expo 2025",
+    "author": "Eng. Ali Odeh",
+    "date": "Apr 2025",
+    "category": "Expo",
+    "image": "/assets/gb.jpg",
+    "readTime": "4 min read",
+    "tags": [
+      "Green Buildings",
+      "Steps Towards Sustainability",
+      "Renewable Energy",
+      "Water-Energy-Food Nexus",
+      "Palestine 2025"
+    ],
+    "excerpt": "Al Tayseer International for Development participated in the second Green Building Conference & Exhibition \"Steps Towards Sustainability\" in Ramallah, showcasing innovative solutions in alternative energy systems, green buildings, and advanced agriculture technologies.",
+    "sections": [
+      {
+        "title": "Participation in \"Steps Towards Sustainability\"",
+        "paragraphs": [
+          "Al Tayseer International for Development took part in the Green Building Conference & Exhibition \"Steps Towards Sustainability\", organized by the Palestine Green Building Council on 22–23 April 2025 at the Carmel Hotel in Ramallah, with the aim of promoting sustainability and environmental awareness in the fields of building systems, energy, and water, and encouraging the use of eco-friendly technologies and materials in the construction sector.",
+          "This participation aligns with the company’s vision and its management’s commitment to strengthening its presence in the fields of alternative energy systems, green buildings, and advanced agriculture technologies, in a way that supports environmental standards and long-term sustainability.",
+          "Through its booth at the exhibition, Al Tayseer International for Development presented a distinguished selection of high-specification systems, products, and technologies. As part of its commitment to social responsibility and support for the education sector, the company organized an interactive live demonstration with a group of engineering students from Palestine Technical University – Kadoorie, featuring the installation and operation of several environmental solutions that offered a real-life experience of integrating the water, energy, and food sectors within a sustainable environment.",
+          "Al Tayseer International for Development firmly believes that innovation and partnership with the young generation are key to building a more sustainable future for Palestine."
+        ]
+      }
+    ],
+    "gallery": [
+      "/assets/gb.jpg",
+      "/assets/gb1.jpg",
+      "/assets/gb2.jpg",
+      "/assets/gb3.jpg",
+      "/assets/gb5.jpg",
+      "/assets/gb6.jpg",
+      "/assets/gb7.jpg",
+      "/assets/gb8.jpg",
+      "/assets/gb9.jpg",
+      "/assets/gb10.jpg",
+      "/assets/gb11.jpg",
+      "/assets/gb12.jpg",
+      "/assets/gb13.jpg",
+      "/assets/gb14.jpg",
+      "/assets/gb15.jpg",
+      "/assets/gb16.jpg",
+      "/assets/gb17.jpg",
+      "/assets/gb18.jpg",
+      "/assets/gb19.jpg"
+    ]
+  },
 
   {
     "id": 7,
