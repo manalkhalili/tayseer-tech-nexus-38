@@ -1,4 +1,39 @@
 [
+
+  {
+    "id": 40,
+    "title": "500 kW On‑Grid Self‑Consumption Solar System – Al‑Muthalath Co.",
+    "description": "Design, installation, testing, commissioning, and handover of a 500 kW zero‑export industrial PV system for Al‑Muthalath Company to cover daytime loads with clean power while capping export at 0 kW.",
+    "image": "/assets/al-muthalath-main.jpg",
+    "images": [
+      "/assets/al-muthalath-main.jpg",
+      "/assets/al-muthalath-1.jpg",
+      "/assets/al-muthalath-2.jpg",
+      "/assets/al-muthalath-3.jpg"
+    ],
+    "department": "solar",
+    "client": "Al‑Muthalath Company (Aquapure)",
+    "completionDate": "May 2025",
+    "location": "Al‑Jalama, Jenin, Palestine",
+    "specifications": {
+      "System Size": "500 kW (AC)",
+      "Operating Mode": "On‑grid, zero‑export (self‑consumption)",
+      "Site": "Industrial facility",
+      "Export Limit": "0 kW (utility‑compliant)",
+      "Monitoring": "Real‑time performance and energy metering",
+      "Execution": "Al‑Tayseer International"
+    },
+    "features": [
+      "Zero‑export control to prevent grid feed‑in",
+      "High‑efficiency PV modules and inverters",
+      "Real‑time monitoring and energy metering",
+      "Protection and safety per industry standards",
+      "Turnkey EPC delivery with operator orientation",
+      "Reduced electricity costs via daytime load coverage"
+    ],
+    "youtubeUrl": "",
+    "detailedDescription": "Al‑Tayseer International delivered a 500 kW on‑grid PV plant for Al‑Muthalath Company in Al‑Jalama, Jenin, engineered for strict zero‑export operation to maximize on‑site self‑consumption and ensure utility compliance. The turnkey scope covered engineering, procurement, installation, testing, commissioning, and handover, including export‑limiting controllers, calibrated metering, and real‑time monitoring. The system integrates comprehensive protection, safety, and documentation, enabling reliable performance, efficient daily operation, and measurable operating cost savings for the facility."
+  },
   {
     "id": 39,
     "title": "Hydroponic System – Waleed Salman Farm",
